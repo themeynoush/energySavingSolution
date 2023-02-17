@@ -1,0 +1,6109 @@
+{
+  "tickets": [],
+  "terminus": [
+    {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "ONM:NOMAD14:ST:ARCOM@C009"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:ARCOM@C009"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gasn32"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gndc"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gs01"
+        },
+        {
+          "type": "source",
+          "value": "NOMAD14:ST:ARCOM@C009"
+        },
+        {
+          "type": "source",
+          "value": "StopArea:OCE87444000"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:ARCOM@C009"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gasn32"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gndc"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gs01"
+        }
+      ],
+      "name": "Caen",
+      "links": [],
+      "coord": {
+        "lat": "49.176545",
+        "lon": "-0.348262"
+      },
+      "label": "Caen (Caen)",
+      "timezone": "Europe/Paris",
+      "id": "stop_area:STE:OCE87444000"
+    },
+    {
+      "comment": "Rennes",
+      "codes": [
+        {
+          "type": "gtfs_stop_code",
+          "value": "15008"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:LRRON:ST:5029"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:15008"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1056"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1477"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1575"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1721"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1722"
+        },
+        {
+          "type": "secondary_id",
+          "value": "STG:StopArea:OCE87471003"
+        },
+        {
+          "type": "source",
+          "value": "15008"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:ARCOM@RNGR"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:AUTO$1267325984"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:AUTO$1644794171"
+        },
+        {
+          "type": "source",
+          "value": "LRRON:ST:5029"
+        },
+        {
+          "type": "source",
+          "value": "StopArea:OCE87471003"
+        }
+      ],
+      "name": "Rennes",
+      "links": [],
+      "comments": [
+        {
+          "type": "information",
+          "value": "Rennes"
+        }
+      ],
+      "label": "Rennes (Rennes)",
+      "coord": {
+        "lat": "48.103071",
+        "lon": "-1.672131"
+      },
+      "timezone": "Europe/Paris",
+      "id": "stop_area:STE:OCE87471003"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=departure&from=-1.613655;48.113296&to=-1.638895;48.122727&datetime=20230213T135711",
+      "type": "next",
+      "rel": "next",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=arrival&from=-1.613655;48.113296&to=-1.638895;48.122727&datetime=20230213T153738",
+      "type": "prev",
+      "rel": "prev",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=departure&from=-1.613655;48.113296&to=-1.638895;48.122727&datetime=20230213T000000",
+      "type": "first",
+      "rel": "first",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=arrival&from=-1.613655;48.113296&to=-1.638895;48.122727&datetime=20230213T235959",
+      "type": "last",
+      "rel": "last",
+      "templated": false
+    }
+  ],
+  "journeys": [
+    {
+      "status": "",
+      "distances": {
+        "taxi": 0,
+        "car": 0,
+        "walking": 0,
+        "bike": 3039,
+        "ridesharing": 0
+      },
+      "tags": [
+        "bike",
+        "non_pt",
+        "non_pt_bike",
+        "ecologic"
+      ],
+      "nb_transfers": 0,
+      "durations": {
+        "taxi": 0,
+        "walking": 0,
+        "car": 0,
+        "ridesharing": 0,
+        "bike": 1005,
+        "total": 1005
+      },
+      "arrival_date_time": "20230213T115307",
+      "departure_date_time": "20230213T113622",
+      "requested_date_time": "20230213T113622",
+      "fare": {
+        "found": false,
+        "links": []
+      },
+      "co2_emission": {
+        "unit": "gEC",
+        "value": 0.0
+      },
+      "type": "best",
+      "duration": 1005,
+      "sections": [
+        {
+          "from": {
+            "embedded_type": "address",
+            "id": "-1.613655;48.113296",
+            "quality": 0,
+            "name": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+            "address": {
+              "name": "11 Rue du Champ du Moulin",
+              "house_number": 11,
+              "coord": {
+                "lat": "48.113296",
+                "lon": "-1.613655"
+              },
+              "label": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+              "administrative_regions": [
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35051",
+                  "name": "Cesson-S\u00e9vign\u00e9",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1197799",
+                    "lon": "-1.6038829"
+                  },
+                  "label": "Cesson-S\u00e9vign\u00e9 (35510), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35051",
+                  "zip_code": "35510"
+                }
+              ],
+              "id": "-1.613655;48.113296"
+            }
+          },
+          "links": [],
+          "arrival_date_time": "20230213T115307",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "address",
+            "id": "-1.638895;48.122727",
+            "quality": 0,
+            "name": "4 Avenue Pierre Donzelot (Rennes)",
+            "address": {
+              "name": "4 Avenue Pierre Donzelot",
+              "house_number": 4,
+              "coord": {
+                "lat": "48.122727",
+                "lon": "-1.638895"
+              },
+              "label": "4 Avenue Pierre Donzelot (Rennes)",
+              "administrative_regions": [
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.1183076",
+                    "lon": "-1.6545309"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu, Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5511311"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.1304612347",
+                    "lon": "-1.64926622303"
+                  },
+                  "label": "Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5833874"
+                },
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Rennes (35000-35700), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000-35700"
+                }
+              ],
+              "id": "-1.638895;48.122727"
+            }
+          },
+          "street_informations": [
+            {
+              "geojson_offset": 0,
+              "cycle_path_type": "no_cycle_lane"
+            },
+            {
+              "geojson_offset": 8,
+              "cycle_path_type": "dedicated_cycle_way"
+            },
+            {
+              "geojson_offset": 19,
+              "cycle_path_type": "no_cycle_lane"
+            },
+            {
+              "geojson_offset": 21,
+              "cycle_path_type": "separated_cycle_way"
+            },
+            {
+              "geojson_offset": 37,
+              "cycle_path_type": "shared_cycle_way"
+            },
+            {
+              "geojson_offset": 41,
+              "cycle_path_type": "separated_cycle_way"
+            },
+            {
+              "geojson_offset": 76,
+              "cycle_path_type": "dedicated_cycle_way"
+            },
+            {
+              "geojson_offset": 86,
+              "cycle_path_type": "separated_cycle_way"
+            },
+            {
+              "geojson_offset": 87,
+              "cycle_path_type": "no_cycle_lane"
+            },
+            {
+              "geojson_offset": 144,
+              "cycle_path_type": "dedicated_cycle_way"
+            },
+            {
+              "geojson_offset": 159,
+              "cycle_path_type": "no_cycle_lane"
+            }
+          ],
+          "departure_date_time": "20230213T113622",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 3039
+              }
+            ],
+            "coordinates": [
+              [
+                -1.613655,
+                48.113296
+              ],
+              [
+                -1.613661,
+                48.113366
+              ],
+              [
+                -1.614916,
+                48.113359
+              ],
+              [
+                -1.614985,
+                48.113361
+              ],
+              [
+                -1.615019,
+                48.113361
+              ],
+              [
+                -1.615111,
+                48.113641
+              ],
+              [
+                -1.61513,
+                48.1137
+              ],
+              [
+                -1.615267,
+                48.114115
+              ],
+              [
+                -1.615277,
+                48.114145
+              ],
+              [
+                -1.615293,
+                48.114192
+              ],
+              [
+                -1.615273,
+                48.114198
+              ],
+              [
+                -1.615254,
+                48.114207
+              ],
+              [
+                -1.615233,
+                48.114223
+              ],
+              [
+                -1.615217,
+                48.114246
+              ],
+              [
+                -1.615214,
+                48.114273
+              ],
+              [
+                -1.615216,
+                48.114281
+              ],
+              [
+                -1.615234,
+                48.114309
+              ],
+              [
+                -1.61526,
+                48.114327
+              ],
+              [
+                -1.615283,
+                48.114336
+              ],
+              [
+                -1.61531,
+                48.114341
+              ],
+              [
+                -1.615347,
+                48.114341
+              ],
+              [
+                -1.615363,
+                48.11438
+              ],
+              [
+                -1.615379,
+                48.114419
+              ],
+              [
+                -1.615521,
+                48.114401
+              ],
+              [
+                -1.615664,
+                48.114831
+              ],
+              [
+                -1.615896,
+                48.115533
+              ],
+              [
+                -1.616131,
+                48.116242
+              ],
+              [
+                -1.616217,
+                48.116501
+              ],
+              [
+                -1.616352,
+                48.116911
+              ],
+              [
+                -1.616601,
+                48.11766
+              ],
+              [
+                -1.616707,
+                48.11798
+              ],
+              [
+                -1.617112,
+                48.117963
+              ],
+              [
+                -1.617394,
+                48.117952
+              ],
+              [
+                -1.617603,
+                48.117901
+              ],
+              [
+                -1.617795,
+                48.117834
+              ],
+              [
+                -1.617966,
+                48.117747
+              ],
+              [
+                -1.618164,
+                48.117605
+              ],
+              [
+                -1.618317,
+                48.117479
+              ],
+              [
+                -1.61841,
+                48.1174
+              ],
+              [
+                -1.618598,
+                48.117424
+              ],
+              [
+                -1.618673,
+                48.11761
+              ],
+              [
+                -1.618662,
+                48.11766
+              ],
+              [
+                -1.618709,
+                48.117737
+              ],
+              [
+                -1.619801,
+                48.117884
+              ],
+              [
+                -1.62002,
+                48.117884
+              ],
+              [
+                -1.620147,
+                48.117881
+              ],
+              [
+                -1.620261,
+                48.117858
+              ],
+              [
+                -1.620462,
+                48.1178
+              ],
+              [
+                -1.620824,
+                48.11776
+              ],
+              [
+                -1.621157,
+                48.11774
+              ],
+              [
+                -1.621317,
+                48.117731
+              ],
+              [
+                -1.621973,
+                48.117718
+              ],
+              [
+                -1.623719,
+                48.117713
+              ],
+              [
+                -1.626666,
+                48.117679
+              ],
+              [
+                -1.627004,
+                48.117657
+              ],
+              [
+                -1.627339,
+                48.117625
+              ],
+              [
+                -1.627715,
+                48.117563
+              ],
+              [
+                -1.628071,
+                48.117493
+              ],
+              [
+                -1.628125,
+                48.117492
+              ],
+              [
+                -1.628183,
+                48.117497
+              ],
+              [
+                -1.628214,
+                48.117498
+              ],
+              [
+                -1.628281,
+                48.117489
+              ],
+              [
+                -1.628328,
+                48.117479
+              ],
+              [
+                -1.628352,
+                48.117467
+              ],
+              [
+                -1.628439,
+                48.117408
+              ],
+              [
+                -1.628483,
+                48.117392
+              ],
+              [
+                -1.628886,
+                48.117313
+              ],
+              [
+                -1.629135,
+                48.117291
+              ],
+              [
+                -1.629382,
+                48.117288
+              ],
+              [
+                -1.629675,
+                48.117309
+              ],
+              [
+                -1.629913,
+                48.117347
+              ],
+              [
+                -1.63051,
+                48.117473
+              ],
+              [
+                -1.631097,
+                48.117581
+              ],
+              [
+                -1.631595,
+                48.117693
+              ],
+              [
+                -1.631885,
+                48.117755
+              ],
+              [
+                -1.631977,
+                48.117789
+              ],
+              [
+                -1.632001,
+                48.117804
+              ],
+              [
+                -1.631603,
+                48.118709
+              ],
+              [
+                -1.631564,
+                48.118821
+              ],
+              [
+                -1.631498,
+                48.119156
+              ],
+              [
+                -1.631483,
+                48.119314
+              ],
+              [
+                -1.631477,
+                48.119458
+              ],
+              [
+                -1.631469,
+                48.119559
+              ],
+              [
+                -1.631464,
+                48.119618
+              ],
+              [
+                -1.631448,
+                48.119702
+              ],
+              [
+                -1.631403,
+                48.119868
+              ],
+              [
+                -1.63133,
+                48.120041
+              ],
+              [
+                -1.631289,
+                48.120143
+              ],
+              [
+                -1.63138,
+                48.120165
+              ],
+              [
+                -1.631374,
+                48.120193
+              ],
+              [
+                -1.631378,
+                48.120218
+              ],
+              [
+                -1.631393,
+                48.120239
+              ],
+              [
+                -1.631416,
+                48.120256
+              ],
+              [
+                -1.631446,
+                48.120269
+              ],
+              [
+                -1.631479,
+                48.120273
+              ],
+              [
+                -1.631522,
+                48.120273
+              ],
+              [
+                -1.631561,
+                48.120262
+              ],
+              [
+                -1.631581,
+                48.120249
+              ],
+              [
+                -1.631601,
+                48.120236
+              ],
+              [
+                -1.631615,
+                48.120211
+              ],
+              [
+                -1.631616,
+                48.120186
+              ],
+              [
+                -1.631608,
+                48.120159
+              ],
+              [
+                -1.631655,
+                48.120145
+              ],
+              [
+                -1.632084,
+                48.12004
+              ],
+              [
+                -1.63245,
+                48.119943
+              ],
+              [
+                -1.632756,
+                48.119861
+              ],
+              [
+                -1.632933,
+                48.119813
+              ],
+              [
+                -1.633162,
+                48.119752
+              ],
+              [
+                -1.634302,
+                48.119439
+              ],
+              [
+                -1.635142,
+                48.119237
+              ],
+              [
+                -1.635181,
+                48.119226
+              ],
+              [
+                -1.63523,
+                48.119214
+              ],
+              [
+                -1.6354,
+                48.119506
+              ],
+              [
+                -1.635464,
+                48.119616
+              ],
+              [
+                -1.635643,
+                48.119922
+              ],
+              [
+                -1.635705,
+                48.120027
+              ],
+              [
+                -1.635773,
+                48.120138
+              ],
+              [
+                -1.635805,
+                48.12018
+              ],
+              [
+                -1.635843,
+                48.120213
+              ],
+              [
+                -1.635913,
+                48.120245
+              ],
+              [
+                -1.635984,
+                48.120264
+              ],
+              [
+                -1.63606,
+                48.120264
+              ],
+              [
+                -1.636141,
+                48.120251
+              ],
+              [
+                -1.636859,
+                48.120061
+              ],
+              [
+                -1.636928,
+                48.120047
+              ],
+              [
+                -1.636999,
+                48.120038
+              ],
+              [
+                -1.637071,
+                48.120039
+              ],
+              [
+                -1.637141,
+                48.120047
+              ],
+              [
+                -1.637198,
+                48.120064
+              ],
+              [
+                -1.637249,
+                48.120084
+              ],
+              [
+                -1.637299,
+                48.120115
+              ],
+              [
+                -1.637339,
+                48.120149
+              ],
+              [
+                -1.63747,
+                48.120367
+              ],
+              [
+                -1.637545,
+                48.120496
+              ],
+              [
+                -1.638068,
+                48.121387
+              ],
+              [
+                -1.638107,
+                48.121453
+              ],
+              [
+                -1.638143,
+                48.121514
+              ],
+              [
+                -1.638199,
+                48.121608
+              ],
+              [
+                -1.63829,
+                48.121778
+              ],
+              [
+                -1.638318,
+                48.121829
+              ],
+              [
+                -1.63834,
+                48.121888
+              ],
+              [
+                -1.63841,
+                48.122175
+              ],
+              [
+                -1.638413,
+                48.122189
+              ],
+              [
+                -1.638397,
+                48.122234
+              ],
+              [
+                -1.6384,
+                48.122275
+              ],
+              [
+                -1.638416,
+                48.122365
+              ],
+              [
+                -1.638396,
+                48.122375
+              ],
+              [
+                -1.63838,
+                48.122388
+              ],
+              [
+                -1.638369,
+                48.122402
+              ],
+              [
+                -1.638361,
+                48.122423
+              ],
+              [
+                -1.638363,
+                48.122445
+              ],
+              [
+                -1.638374,
+                48.122465
+              ],
+              [
+                -1.638392,
+                48.122483
+              ],
+              [
+                -1.638411,
+                48.122494
+              ],
+              [
+                -1.638433,
+                48.122502
+              ],
+              [
+                -1.638457,
+                48.122506
+              ],
+              [
+                -1.638482,
+                48.122507
+              ],
+              [
+                -1.638507,
+                48.122504
+              ],
+              [
+                -1.63853,
+                48.122498
+              ],
+              [
+                -1.63855,
+                48.122488
+              ],
+              [
+                -1.638567,
+                48.122476
+              ],
+              [
+                -1.638757,
+                48.12248
+              ],
+              [
+                -1.638804,
+                48.12248
+              ],
+              [
+                -1.638821,
+                48.122494
+              ],
+              [
+                -1.638842,
+                48.122506
+              ],
+              [
+                -1.638866,
+                48.122513
+              ],
+              [
+                -1.638892,
+                48.122517
+              ],
+              [
+                -1.638978,
+                48.12258
+              ],
+              [
+                -1.639055,
+                48.122637
+              ],
+              [
+                -1.639081,
+                48.122683
+              ],
+              [
+                -1.638895,
+                48.122727
+              ]
+            ]
+          },
+          "duration": 1005,
+          "path": [
+            {
+              "direction": 0,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113366",
+                "lon": "-1.613661"
+              },
+              "instruction": "P\u00e9dalez vers l'ouest sur Rue du Champ du Moulin. Continuez sur 101 m.",
+              "length": 102,
+              "duration": 31
+            },
+            {
+              "direction": 78,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113361",
+                "lon": "-1.615019"
+              },
+              "instruction": "Tournez \u00e0 droite pour rester sur Rue du Champ du Moulin. Continuez sur 95 m.",
+              "length": 95,
+              "duration": 33
+            },
+            {
+              "direction": 73,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114192",
+                "lon": "-1.615293"
+              },
+              "instruction": "Entrez dans le rond-point et prenez la 2e sortie dans Avenue de la Hublais. Continuez sur 34 m.",
+              "length": 34,
+              "duration": 15
+            },
+            {
+              "direction": -86,
+              "name": "Avenue de la Hublais",
+              "instruction_start_coordinate": {
+                "lat": "48.114419",
+                "lon": "-1.615379"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Avenue de la Hublais. Continuez sur 419 m.",
+              "length": 419,
+              "duration": 165
+            },
+            {
+              "direction": -82,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.11798",
+                "lon": "-1.616707"
+              },
+              "instruction": "Tournez \u00e0 gauche dans la piste cyclable. Continuez sur 151 m.",
+              "length": 151,
+              "duration": 36
+            },
+            {
+              "direction": 63,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.1174",
+                "lon": "-1.61841"
+              },
+              "instruction": "Tournez \u00e0 droite. Continuez sur 14 m.",
+              "length": 14,
+              "duration": 8
+            },
+            {
+              "direction": 64,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117424",
+                "lon": "-1.618598"
+              },
+              "instruction": "Tournez \u00e0 droite. Continuez sur 36 m.",
+              "length": 36,
+              "duration": 19
+            },
+            {
+              "direction": -57,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117737",
+                "lon": "-1.618709"
+              },
+              "instruction": "Tournez \u00e0 gauche dans la piste cyclable. Continuez sur 161 m.",
+              "length": 161,
+              "duration": 42
+            },
+            {
+              "direction": 4,
+              "name": "Avenue de la Renaudi\u00e8re",
+              "instruction_start_coordinate": {
+                "lat": "48.11776",
+                "lon": "-1.620824"
+              },
+              "instruction": "Continuez sur Avenue de la Renaudi\u00e8re. Continuez sur 847 m.",
+              "length": 847,
+              "duration": 290
+            },
+            {
+              "direction": 63,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117804",
+                "lon": "-1.632001"
+              },
+              "instruction": "Tournez \u00e0 droite dans la piste cyclable. Continuez sur 267 m.",
+              "length": 267,
+              "duration": 81
+            },
+            {
+              "direction": -85,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.120143",
+                "lon": "-1.631289"
+              },
+              "instruction": "Tournez \u00e0 gauche dans la piste cyclable. Continuez sur 7 m.",
+              "length": 7,
+              "duration": 3
+            },
+            {
+              "direction": 55,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.120165",
+                "lon": "-1.63138"
+              },
+              "instruction": "Entrez dans le rond-point et prenez la 2e sortie dans All\u00e9e Victor Grignard. Continuez sur 323 m.",
+              "length": 323,
+              "duration": 79
+            },
+            {
+              "direction": 90,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.119214",
+                "lon": "-1.63523"
+              },
+              "instruction": "Tournez \u00e0 droite dans All\u00e9e de Beaulieu. Continuez sur 503 m.",
+              "length": 503,
+              "duration": 171
+            },
+            {
+              "direction": 53,
+              "name": "Avenue des Buttes de Co\u00ebsmes",
+              "instruction_start_coordinate": {
+                "lat": "48.12236499999999",
+                "lon": "-1.638416"
+              },
+              "instruction": "Entrez dans Avenue des Buttes de Co\u00ebsmes et prenez la 2e sortie dans Avenue du Professeur Charles Foulon. Continuez sur 49 m.",
+              "length": 49,
+              "duration": 17
+            },
+            {
+              "direction": 31,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12248",
+                "lon": "-1.638804"
+              },
+              "instruction": "Entrez dans le rond-point et prenez la 2e sortie dans Avenue Pierre Donzelot. Continuez sur 31 m.",
+              "length": 31,
+              "duration": 14
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12268299999999",
+                "lon": "-1.639081"
+              },
+              "instruction": "Votre destination est sur la droite.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "cycle_lane_length": 0,
+          "type": "street_network",
+          "id": "section_0_1",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 93,
+              "geojson_offset": 1,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 133,
+              "geojson_offset": 4,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 214,
+              "geojson_offset": 16,
+              "elevation": 33
+            },
+            {
+              "distance_from_start": 221,
+              "geojson_offset": 19,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 225,
+              "geojson_offset": 20,
+              "elevation": 33
+            },
+            {
+              "distance_from_start": 290,
+              "geojson_offset": 23,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 370,
+              "geojson_offset": 24,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 451,
+              "geojson_offset": 25,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 480,
+              "geojson_offset": 26,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 527,
+              "geojson_offset": 27,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 612,
+              "geojson_offset": 28,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 649,
+              "geojson_offset": 29,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 732,
+              "geojson_offset": 33,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 748,
+              "geojson_offset": 34,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 770,
+              "geojson_offset": 35,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 788,
+              "geojson_offset": 36,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 814,
+              "geojson_offset": 38,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 835,
+              "geojson_offset": 39,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 850,
+              "geojson_offset": 41,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 933,
+              "geojson_offset": 42,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 949,
+              "geojson_offset": 43,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 967,
+              "geojson_offset": 45,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 984,
+              "geojson_offset": 46,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 1036,
+              "geojson_offset": 48,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 1048,
+              "geojson_offset": 49,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 1096,
+              "geojson_offset": 50,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 1226,
+              "geojson_offset": 51,
+              "elevation": 35
+            },
+            {
+              "distance_from_start": 1445,
+              "geojson_offset": 52,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 1496,
+              "geojson_offset": 54,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 1524,
+              "geojson_offset": 55,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 1552,
+              "geojson_offset": 56,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 1563,
+              "geojson_offset": 59,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 1587,
+              "geojson_offset": 64,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 1618,
+              "geojson_offset": 65,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 1636,
+              "geojson_offset": 66,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 1677,
+              "geojson_offset": 68,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 1695,
+              "geojson_offset": 69,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 1741,
+              "geojson_offset": 70,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 1787,
+              "geojson_offset": 71,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 1826,
+              "geojson_offset": 72,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 1848,
+              "geojson_offset": 73,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 1964,
+              "geojson_offset": 76,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 2014,
+              "geojson_offset": 78,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 2032,
+              "geojson_offset": 79,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 2094,
+              "geojson_offset": 84,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 2114,
+              "geojson_offset": 85,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 2126,
+              "geojson_offset": 86,
+              "elevation": 52
+            },
+            {
+              "distance_from_start": 2139,
+              "geojson_offset": 89,
+              "elevation": 53
+            },
+            {
+              "distance_from_start": 2168,
+              "geojson_offset": 100,
+              "elevation": 52
+            },
+            {
+              "distance_from_start": 2172,
+              "geojson_offset": 101,
+              "elevation": 53
+            },
+            {
+              "distance_from_start": 2206,
+              "geojson_offset": 102,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 2235,
+              "geojson_offset": 103,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 2260,
+              "geojson_offset": 104,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 2274,
+              "geojson_offset": 105,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 2292,
+              "geojson_offset": 106,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 2384,
+              "geojson_offset": 107,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 2450,
+              "geojson_offset": 108,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 2453,
+              "geojson_offset": 109,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2492,
+              "geojson_offset": 111,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 2542,
+              "geojson_offset": 113,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2554,
+              "geojson_offset": 114,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2584,
+              "geojson_offset": 118,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2595,
+              "geojson_offset": 120,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 2659,
+              "geojson_offset": 122,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 2664,
+              "geojson_offset": 123,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 2741,
+              "geojson_offset": 132,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 2847,
+              "geojson_offset": 133,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2855,
+              "geojson_offset": 134,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2862,
+              "geojson_offset": 135,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 2894,
+              "geojson_offset": 137,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 2907,
+              "geojson_offset": 139,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 2939,
+              "geojson_offset": 140,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 2960,
+              "geojson_offset": 144,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 3034,
+              "geojson_offset": 167,
+              "elevation": 47
+            }
+          ],
+          "mode": "bike"
+        }
+      ]
+    },
+    {
+      "status": "",
+      "distances": {
+        "taxi": 0,
+        "car": 0,
+        "walking": 2960,
+        "bike": 0,
+        "ridesharing": 0
+      },
+      "tags": [
+        "walking",
+        "non_pt",
+        "non_pt_walking",
+        "ecologic"
+      ],
+      "nb_transfers": 0,
+      "durations": {
+        "taxi": 0,
+        "walking": 2699,
+        "car": 0,
+        "ridesharing": 0,
+        "bike": 0,
+        "total": 2699
+      },
+      "arrival_date_time": "20230213T122121",
+      "departure_date_time": "20230213T113622",
+      "requested_date_time": "20230213T113622",
+      "fare": {
+        "found": false,
+        "links": []
+      },
+      "co2_emission": {
+        "unit": "gEC",
+        "value": 0.0
+      },
+      "type": "non_pt_walk",
+      "duration": 2699,
+      "sections": [
+        {
+          "from": {
+            "embedded_type": "address",
+            "id": "-1.613655;48.113296",
+            "quality": 0,
+            "name": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+            "address": {
+              "name": "11 Rue du Champ du Moulin",
+              "house_number": 11,
+              "coord": {
+                "lat": "48.113296",
+                "lon": "-1.613655"
+              },
+              "label": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+              "administrative_regions": [
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35051",
+                  "name": "Cesson-S\u00e9vign\u00e9",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1197799",
+                    "lon": "-1.6038829"
+                  },
+                  "label": "Cesson-S\u00e9vign\u00e9 (35510), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35051",
+                  "zip_code": "35510"
+                }
+              ],
+              "id": "-1.613655;48.113296"
+            }
+          },
+          "links": [],
+          "arrival_date_time": "20230213T122121",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "address",
+            "id": "-1.638895;48.122727",
+            "quality": 0,
+            "name": "4 Avenue Pierre Donzelot (Rennes)",
+            "address": {
+              "name": "4 Avenue Pierre Donzelot",
+              "house_number": 4,
+              "coord": {
+                "lat": "48.122727",
+                "lon": "-1.638895"
+              },
+              "label": "4 Avenue Pierre Donzelot (Rennes)",
+              "administrative_regions": [
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.1183076",
+                    "lon": "-1.6545309"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu, Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5511311"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.1304612347",
+                    "lon": "-1.64926622303"
+                  },
+                  "label": "Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5833874"
+                },
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Rennes (35000-35700), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000-35700"
+                }
+              ],
+              "id": "-1.638895;48.122727"
+            }
+          },
+          "departure_date_time": "20230213T113622",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 2960
+              }
+            ],
+            "coordinates": [
+              [
+                -1.613655,
+                48.113296
+              ],
+              [
+                -1.613661,
+                48.113366
+              ],
+              [
+                -1.614916,
+                48.113359
+              ],
+              [
+                -1.614985,
+                48.113361
+              ],
+              [
+                -1.615019,
+                48.113361
+              ],
+              [
+                -1.615111,
+                48.113641
+              ],
+              [
+                -1.61513,
+                48.1137
+              ],
+              [
+                -1.615267,
+                48.114115
+              ],
+              [
+                -1.615277,
+                48.114145
+              ],
+              [
+                -1.615293,
+                48.114192
+              ],
+              [
+                -1.615337,
+                48.114189
+              ],
+              [
+                -1.61538,
+                48.114197
+              ],
+              [
+                -1.615399,
+                48.114205
+              ],
+              [
+                -1.615484,
+                48.114207
+              ],
+              [
+                -1.615568,
+                48.11421
+              ],
+              [
+                -1.615618,
+                48.11421
+              ],
+              [
+                -1.615646,
+                48.114202
+              ],
+              [
+                -1.615711,
+                48.114182
+              ],
+              [
+                -1.615776,
+                48.114163
+              ],
+              [
+                -1.615944,
+                48.114155
+              ],
+              [
+                -1.616078,
+                48.114155
+              ],
+              [
+                -1.616732,
+                48.114147
+              ],
+              [
+                -1.617404,
+                48.114138
+              ],
+              [
+                -1.617576,
+                48.114137
+              ],
+              [
+                -1.617673,
+                48.114136
+              ],
+              [
+                -1.617677,
+                48.114188
+              ],
+              [
+                -1.617681,
+                48.114245
+              ],
+              [
+                -1.618131,
+                48.114236
+              ],
+              [
+                -1.618133,
+                48.114288
+              ],
+              [
+                -1.618199,
+                48.114615
+              ],
+              [
+                -1.618222,
+                48.114737
+              ],
+              [
+                -1.618247,
+                48.114865
+              ],
+              [
+                -1.618278,
+                48.115012
+              ],
+              [
+                -1.618346,
+                48.115247
+              ],
+              [
+                -1.618376,
+                48.115468
+              ],
+              [
+                -1.618389,
+                48.115694
+              ],
+              [
+                -1.618392,
+                48.11626
+              ],
+              [
+                -1.618399,
+                48.117192
+              ],
+              [
+                -1.6184,
+                48.117348
+              ],
+              [
+                -1.618408,
+                48.117359
+              ],
+              [
+                -1.618598,
+                48.117424
+              ],
+              [
+                -1.618673,
+                48.11761
+              ],
+              [
+                -1.618662,
+                48.11766
+              ],
+              [
+                -1.619601,
+                48.11781
+              ],
+              [
+                -1.619912,
+                48.117819
+              ],
+              [
+                -1.620188,
+                48.117801
+              ],
+              [
+                -1.620462,
+                48.117769
+              ],
+              [
+                -1.620856,
+                48.117716
+              ],
+              [
+                -1.621168,
+                48.117684
+              ],
+              [
+                -1.621513,
+                48.117673
+              ],
+              [
+                -1.621974,
+                48.117669
+              ],
+              [
+                -1.622036,
+                48.117672
+              ],
+              [
+                -1.623398,
+                48.117649
+              ],
+              [
+                -1.623654,
+                48.117605
+              ],
+              [
+                -1.623739,
+                48.117598
+              ],
+              [
+                -1.623811,
+                48.117604
+              ],
+              [
+                -1.62407,
+                48.11763
+              ],
+              [
+                -1.626896,
+                48.117602
+              ],
+              [
+                -1.627354,
+                48.117538
+              ],
+              [
+                -1.627339,
+                48.117625
+              ],
+              [
+                -1.627362,
+                48.117665
+              ],
+              [
+                -1.627516,
+                48.117707
+              ],
+              [
+                -1.627664,
+                48.117755
+              ],
+              [
+                -1.627783,
+                48.117821
+              ],
+              [
+                -1.627788,
+                48.118035
+              ],
+              [
+                -1.627783,
+                48.118061
+              ],
+              [
+                -1.627865,
+                48.118115
+              ],
+              [
+                -1.627967,
+                48.118142
+              ],
+              [
+                -1.62809,
+                48.118162
+              ],
+              [
+                -1.6282,
+                48.11816
+              ],
+              [
+                -1.62838,
+                48.118155
+              ],
+              [
+                -1.628541,
+                48.118135
+              ],
+              [
+                -1.628645,
+                48.118135
+              ],
+              [
+                -1.628755,
+                48.118167
+              ],
+              [
+                -1.629012,
+                48.118273
+              ],
+              [
+                -1.629112,
+                48.118315
+              ],
+              [
+                -1.629134,
+                48.118292
+              ],
+              [
+                -1.629289,
+                48.118297
+              ],
+              [
+                -1.629533,
+                48.118299
+              ],
+              [
+                -1.629701,
+                48.1183
+              ],
+              [
+                -1.629769,
+                48.118294
+              ],
+              [
+                -1.629792,
+                48.118281
+              ],
+              [
+                -1.629798,
+                48.118268
+              ],
+              [
+                -1.62979,
+                48.118177
+              ],
+              [
+                -1.629801,
+                48.118162
+              ],
+              [
+                -1.629819,
+                48.118156
+              ],
+              [
+                -1.630187,
+                48.118147
+              ],
+              [
+                -1.630199,
+                48.118245
+              ],
+              [
+                -1.630231,
+                48.118382
+              ],
+              [
+                -1.630254,
+                48.118424
+              ],
+              [
+                -1.630295,
+                48.118467
+              ],
+              [
+                -1.630368,
+                48.118512
+              ],
+              [
+                -1.630444,
+                48.118527
+              ],
+              [
+                -1.630969,
+                48.118517
+              ],
+              [
+                -1.631012,
+                48.118644
+              ],
+              [
+                -1.631068,
+                48.118758
+              ],
+              [
+                -1.631187,
+                48.118746
+              ],
+              [
+                -1.631315,
+                48.118735
+              ],
+              [
+                -1.631452,
+                48.118724
+              ],
+              [
+                -1.631603,
+                48.118709
+              ],
+              [
+                -1.631564,
+                48.118821
+              ],
+              [
+                -1.631498,
+                48.119156
+              ],
+              [
+                -1.631483,
+                48.119314
+              ],
+              [
+                -1.631477,
+                48.119458
+              ],
+              [
+                -1.631469,
+                48.119559
+              ],
+              [
+                -1.631464,
+                48.119618
+              ],
+              [
+                -1.631448,
+                48.119702
+              ],
+              [
+                -1.631403,
+                48.119868
+              ],
+              [
+                -1.63133,
+                48.120041
+              ],
+              [
+                -1.631462,
+                48.120033
+              ],
+              [
+                -1.631463,
+                48.120071
+              ],
+              [
+                -1.631468,
+                48.120113
+              ],
+              [
+                -1.631499,
+                48.120109
+              ],
+              [
+                -1.631534,
+                48.120113
+              ],
+              [
+                -1.631562,
+                48.120123
+              ],
+              [
+                -1.631593,
+                48.120142
+              ],
+              [
+                -1.631608,
+                48.120159
+              ],
+              [
+                -1.631655,
+                48.120145
+              ],
+              [
+                -1.632084,
+                48.12004
+              ],
+              [
+                -1.63245,
+                48.119943
+              ],
+              [
+                -1.632756,
+                48.119861
+              ],
+              [
+                -1.632933,
+                48.119813
+              ],
+              [
+                -1.633162,
+                48.119752
+              ],
+              [
+                -1.634302,
+                48.119439
+              ],
+              [
+                -1.635142,
+                48.119237
+              ],
+              [
+                -1.635181,
+                48.119226
+              ],
+              [
+                -1.63523,
+                48.119214
+              ],
+              [
+                -1.6354,
+                48.119506
+              ],
+              [
+                -1.635464,
+                48.119616
+              ],
+              [
+                -1.635643,
+                48.119922
+              ],
+              [
+                -1.635705,
+                48.120027
+              ],
+              [
+                -1.635773,
+                48.120138
+              ],
+              [
+                -1.635805,
+                48.12018
+              ],
+              [
+                -1.635843,
+                48.120213
+              ],
+              [
+                -1.635913,
+                48.120245
+              ],
+              [
+                -1.635984,
+                48.120264
+              ],
+              [
+                -1.63606,
+                48.120264
+              ],
+              [
+                -1.636141,
+                48.120251
+              ],
+              [
+                -1.636859,
+                48.120061
+              ],
+              [
+                -1.636928,
+                48.120047
+              ],
+              [
+                -1.636999,
+                48.120038
+              ],
+              [
+                -1.637071,
+                48.120039
+              ],
+              [
+                -1.637141,
+                48.120047
+              ],
+              [
+                -1.637198,
+                48.120064
+              ],
+              [
+                -1.637249,
+                48.120084
+              ],
+              [
+                -1.637299,
+                48.120115
+              ],
+              [
+                -1.637339,
+                48.120149
+              ],
+              [
+                -1.63747,
+                48.120367
+              ],
+              [
+                -1.637545,
+                48.120496
+              ],
+              [
+                -1.638068,
+                48.121387
+              ],
+              [
+                -1.638107,
+                48.121453
+              ],
+              [
+                -1.638143,
+                48.121514
+              ],
+              [
+                -1.638199,
+                48.121608
+              ],
+              [
+                -1.63829,
+                48.121778
+              ],
+              [
+                -1.638318,
+                48.121829
+              ],
+              [
+                -1.63834,
+                48.121888
+              ],
+              [
+                -1.63841,
+                48.122175
+              ],
+              [
+                -1.638413,
+                48.122189
+              ],
+              [
+                -1.638447,
+                48.122233
+              ],
+              [
+                -1.638456,
+                48.122266
+              ],
+              [
+                -1.638493,
+                48.12226
+              ],
+              [
+                -1.638534,
+                48.122288
+              ],
+              [
+                -1.63863,
+                48.122321
+              ],
+              [
+                -1.638776,
+                48.122329
+              ],
+              [
+                -1.638901,
+                48.122311
+              ],
+              [
+                -1.639014,
+                48.122325
+              ],
+              [
+                -1.639087,
+                48.122307
+              ],
+              [
+                -1.639104,
+                48.122335
+              ],
+              [
+                -1.639109,
+                48.122344
+              ],
+              [
+                -1.639115,
+                48.122353
+              ],
+              [
+                -1.639135,
+                48.122391
+              ],
+              [
+                -1.639156,
+                48.122432
+              ],
+              [
+                -1.639145,
+                48.122438
+              ],
+              [
+                -1.639079,
+                48.122478
+              ],
+              [
+                -1.639092,
+                48.122548
+              ],
+              [
+                -1.639022,
+                48.122566
+              ],
+              [
+                -1.639055,
+                48.122637
+              ],
+              [
+                -1.639081,
+                48.122683
+              ],
+              [
+                -1.638895,
+                48.122727
+              ]
+            ]
+          },
+          "duration": 2699,
+          "path": [
+            {
+              "direction": 0,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113366",
+                "lon": "-1.613661"
+              },
+              "instruction": "Marchez vers l'ouest sur Rue du Champ du Moulin. Continuez sur 101 m.",
+              "length": 102,
+              "duration": 92
+            },
+            {
+              "direction": 78,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113361",
+                "lon": "-1.615019"
+              },
+              "instruction": "Tournez \u00e0 droite pour rester sur Rue du Champ du Moulin. Continuez sur 95 m.",
+              "length": 95,
+              "duration": 87
+            },
+            {
+              "direction": -67,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114192",
+                "lon": "-1.615293"
+              },
+              "instruction": "Tournez \u00e0 gauche. Continuez sur 8 m.",
+              "length": 8,
+              "duration": 7
+            },
+            {
+              "direction": -8,
+              "name": "Rue de Rennes",
+              "instruction_start_coordinate": {
+                "lat": "48.114205",
+                "lon": "-1.615399"
+              },
+              "instruction": "Gardez la gauche pour prendre Rue de Rennes. Continuez sur 169 m.",
+              "length": 169,
+              "duration": 151
+            },
+            {
+              "direction": 88,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.11413599999999",
+                "lon": "-1.617673"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 12 m.",
+              "length": 12,
+              "duration": 12
+            },
+            {
+              "direction": -89,
+              "name": "Rue de Rennes",
+              "instruction_start_coordinate": {
+                "lat": "48.114245",
+                "lon": "-1.617681"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Rue de Rennes. Continuez sur 33 m.",
+              "length": 33,
+              "duration": 24
+            },
+            {
+              "direction": 87,
+              "name": "All\u00e9e de la Touche Ablin",
+              "instruction_start_coordinate": {
+                "lat": "48.114236",
+                "lon": "-1.618131"
+              },
+              "instruction": "Tournez \u00e0 droite dans All\u00e9e de la Touche Ablin. Continuez sur 350 m.",
+              "length": 350,
+              "duration": 353
+            },
+            {
+              "direction": -37,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117359",
+                "lon": "-1.618408"
+              },
+              "instruction": "Serrez \u00e0 gauche. Continuez sur 16 m.",
+              "length": 16,
+              "duration": 13
+            },
+            {
+              "direction": 48,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117424",
+                "lon": "-1.618598"
+              },
+              "instruction": "Tournez \u00e0 droite. Continuez sur 27 m.",
+              "length": 27,
+              "duration": 29
+            },
+            {
+              "direction": -80,
+              "name": "Avenue de la Renaudi\u00e8re",
+              "instruction_start_coordinate": {
+                "lat": "48.11766",
+                "lon": "-1.618662"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Avenue de la Renaudi\u00e8re. Continuez sur 649 m.",
+              "length": 649,
+              "duration": 578
+            },
+            {
+              "direction": 109,
+              "name": "Rue des Cours de Co\u00ebsmes",
+              "instruction_start_coordinate": {
+                "lat": "48.117538",
+                "lon": "-1.627354"
+              },
+              "instruction": "Tournez \u00e0 droite dans Rue des Cours de Co\u00ebsmes. Continuez sur 15 m.",
+              "length": 15,
+              "duration": 16
+            },
+            {
+              "direction": -47,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117665",
+                "lon": "-1.627362"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 36 m.",
+              "length": 36,
+              "duration": 36
+            },
+            {
+              "direction": 49,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.117821",
+                "lon": "-1.627783"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 27 m.",
+              "length": 27,
+              "duration": 21
+            },
+            {
+              "direction": -47,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.118061",
+                "lon": "-1.627783"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 108 m.",
+              "length": 108,
+              "duration": 103
+            },
+            {
+              "direction": -89,
+              "name": "All\u00e9e de la Renaudi\u00e8re",
+              "instruction_start_coordinate": {
+                "lat": "48.118315",
+                "lon": "-1.629112"
+              },
+              "instruction": "Tournez \u00e0 gauche dans All\u00e9e de la Renaudi\u00e8re. Continuez sur 3 m.",
+              "length": 3,
+              "duration": 3
+            },
+            {
+              "direction": 60,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.118292",
+                "lon": "-1.629134"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 92 m.",
+              "length": 92,
+              "duration": 101
+            },
+            {
+              "direction": 86,
+              "name": "Rue du Bois Frin",
+              "instruction_start_coordinate": {
+                "lat": "48.118147",
+                "lon": "-1.630187"
+              },
+              "instruction": "Tournez \u00e0 droite dans Rue du Bois Frin. Continuez sur 89 m.",
+              "length": 89,
+              "duration": 80
+            },
+            {
+              "direction": 79,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.118517",
+                "lon": "-1.630969"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 68 m.",
+              "length": 68,
+              "duration": 52
+            },
+            {
+              "direction": 111,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.118709",
+                "lon": "-1.631603"
+              },
+              "instruction": "Tournez \u00e0 droite. Continuez sur 150 m.",
+              "length": 150,
+              "duration": 143
+            },
+            {
+              "direction": -111,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.120041",
+                "lon": "-1.63133"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 10 m.",
+              "length": 10,
+              "duration": 10
+            },
+            {
+              "direction": 92,
+              "name": "Avenue de la Touraudais",
+              "instruction_start_coordinate": {
+                "lat": "48.120033",
+                "lon": "-1.631462"
+              },
+              "instruction": "Tournez \u00e0 droite dans Avenue de la Touraudais/D 197. Continuez sur 9 m.",
+              "length": 9,
+              "duration": 8
+            },
+            {
+              "direction": -61,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.120113",
+                "lon": "-1.631468"
+              },
+              "instruction": "Tournez \u00e0 gauche. Continuez sur 13 m.",
+              "length": 13,
+              "duration": 13
+            },
+            {
+              "direction": -47,
+              "name": "All\u00e9e Victor Grignard",
+              "instruction_start_coordinate": {
+                "lat": "48.120159",
+                "lon": "-1.631608"
+              },
+              "instruction": "Tournez \u00e0 gauche dans All\u00e9e Victor Grignard. Continuez sur 288 m.",
+              "length": 288,
+              "duration": 214
+            },
+            {
+              "direction": 90,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.119214",
+                "lon": "-1.63523"
+              },
+              "instruction": "Tournez \u00e0 droite dans All\u00e9e de Beaulieu. Continuez sur 132 m.",
+              "length": 132,
+              "duration": 114
+            },
+            {
+              "direction": -48,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.120264",
+                "lon": "-1.635984"
+              },
+              "instruction": "Tournez \u00e0 gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 351 m.",
+              "length": 351,
+              "duration": 334
+            },
+            {
+              "direction": -12,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.122189",
+                "lon": "-1.638413"
+              },
+              "instruction": "Gardez la gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 9 m.",
+              "length": 9,
+              "duration": 8
+            },
+            {
+              "direction": -84,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122266",
+                "lon": "-1.638456"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 3 m.",
+              "length": 3,
+              "duration": 3
+            },
+            {
+              "direction": 52,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12226",
+                "lon": "-1.638493"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 47 m.",
+              "length": 47,
+              "duration": 45
+            },
+            {
+              "direction": 81,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122307",
+                "lon": "-1.639087"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 30 m.",
+              "length": 30,
+              "duration": 33
+            },
+            {
+              "direction": 76,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12254799999999",
+                "lon": "-1.639092"
+              },
+              "instruction": "Tournez \u00e0 droite dans the crosswalk. Continuez sur 6 m.",
+              "length": 6,
+              "duration": 5
+            },
+            {
+              "direction": -86,
+              "name": "Avenue Pierre Donzelot",
+              "instruction_start_coordinate": {
+                "lat": "48.122566",
+                "lon": "-1.639022"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Avenue Pierre Donzelot. Continuez sur 13 m.",
+              "length": 13,
+              "duration": 12
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12268299999999",
+                "lon": "-1.639081"
+              },
+              "instruction": "Votre destination est sur la droite.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "type": "street_network",
+          "id": "section_0_2",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 93,
+              "geojson_offset": 1,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 133,
+              "geojson_offset": 4,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 202,
+              "geojson_offset": 10,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 216,
+              "geojson_offset": 13,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 233,
+              "geojson_offset": 17,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 304,
+              "geojson_offset": 20,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 354,
+              "geojson_offset": 21,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 367,
+              "geojson_offset": 22,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 386,
+              "geojson_offset": 25,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 420,
+              "geojson_offset": 26,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 426,
+              "geojson_offset": 27,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 462,
+              "geojson_offset": 28,
+              "elevation": 33
+            },
+            {
+              "distance_from_start": 476,
+              "geojson_offset": 29,
+              "elevation": 34
+            },
+            {
+              "distance_from_start": 507,
+              "geojson_offset": 31,
+              "elevation": 35
+            },
+            {
+              "distance_from_start": 558,
+              "geojson_offset": 33,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 646,
+              "geojson_offset": 35,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 750,
+              "geojson_offset": 36,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 806,
+              "geojson_offset": 40,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 907,
+              "geojson_offset": 43,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 928,
+              "geojson_offset": 44,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 948,
+              "geojson_offset": 45,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 1002,
+              "geojson_offset": 47,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 1027,
+              "geojson_offset": 48,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 1061,
+              "geojson_offset": 49,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 1066,
+              "geojson_offset": 50,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 1167,
+              "geojson_offset": 51,
+              "elevation": 35
+            },
+            {
+              "distance_from_start": 1218,
+              "geojson_offset": 55,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 1428,
+              "geojson_offset": 56,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 1463,
+              "geojson_offset": 57,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 1478,
+              "geojson_offset": 59,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 1502,
+              "geojson_offset": 61,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 1538,
+              "geojson_offset": 63,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 1567,
+              "geojson_offset": 67,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 1663,
+              "geojson_offset": 76,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 1681,
+              "geojson_offset": 77,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 1693,
+              "geojson_offset": 78,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 1743,
+              "geojson_offset": 85,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 1787,
+              "geojson_offset": 90,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 1832,
+              "geojson_offset": 92,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 1869,
+              "geojson_offset": 95,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 1889,
+              "geojson_offset": 97,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 1951,
+              "geojson_offset": 100,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 1968,
+              "geojson_offset": 101,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 2031,
+              "geojson_offset": 106,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 2051,
+              "geojson_offset": 107,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 2065,
+              "geojson_offset": 109,
+              "elevation": 52
+            },
+            {
+              "distance_from_start": 2086,
+              "geojson_offset": 116,
+              "elevation": 53
+            },
+            {
+              "distance_from_start": 2120,
+              "geojson_offset": 117,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 2149,
+              "geojson_offset": 118,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 2173,
+              "geojson_offset": 119,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 2188,
+              "geojson_offset": 120,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 2206,
+              "geojson_offset": 121,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 2298,
+              "geojson_offset": 122,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 2364,
+              "geojson_offset": 123,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 2367,
+              "geojson_offset": 124,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2406,
+              "geojson_offset": 126,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 2455,
+              "geojson_offset": 128,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2468,
+              "geojson_offset": 129,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2498,
+              "geojson_offset": 133,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2509,
+              "geojson_offset": 135,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 2572,
+              "geojson_offset": 137,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 2578,
+              "geojson_offset": 138,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 2654,
+              "geojson_offset": 147,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 2761,
+              "geojson_offset": 148,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 2769,
+              "geojson_offset": 149,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 2776,
+              "geojson_offset": 150,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 2807,
+              "geojson_offset": 152,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 2820,
+              "geojson_offset": 154,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 2853,
+              "geojson_offset": 155,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 2907,
+              "geojson_offset": 164,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 2928,
+              "geojson_offset": 170,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 2949,
+              "geojson_offset": 174,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 2957,
+              "geojson_offset": 175,
+              "elevation": 47
+            }
+          ],
+          "mode": "walking"
+        }
+      ]
+    },
+    {
+      "status": "",
+      "distances": {
+        "taxi": 0,
+        "car": 0,
+        "walking": 1967,
+        "bike": 0,
+        "ridesharing": 0
+      },
+      "links": [
+        {
+          "href": "https://api.navitia.io/v1/journeys?first_section_mode%5B%5D=walking&direct_path=none&to=-1.638895%3B48.122727&traveler_type=standard&is_journey_schedules=True&datetime=20230213T135710&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=1&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87334490&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87717629&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87471003&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87471003&from=-1.613655%3B48.113296",
+          "type": "journeys",
+          "rel": "same_journey_schedules",
+          "templated": false
+        },
+        {
+          "href": "https://api.navitia.io/v1/journeys?count=1&first_section_mode%5B%5D=walking&direct_path=none&to=-1.638895%3B48.122727&traveler_type=standard&is_journey_schedules=True&datetime=20230213T135710&last_section_mode%5B%5D=walking&min_nb_journeys=1&min_nb_transfers=1&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87334490&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87717629&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87471003&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87471003&from=-1.613655%3B48.113296",
+          "type": "journeys",
+          "rel": "this_journey",
+          "templated": false
+        }
+      ],
+      "tags": [
+        "walking"
+      ],
+      "nb_transfers": 1,
+      "durations": {
+        "taxi": 0,
+        "walking": 1769,
+        "car": 0,
+        "ridesharing": 0,
+        "bike": 0,
+        "total": 6029
+      },
+      "arrival_date_time": "20230213T153739",
+      "calendars": [
+        {
+          "active_periods": [
+            {
+              "begin": "20230209",
+              "end": "20230325"
+            }
+          ],
+          "week_pattern": {
+            "monday": true,
+            "tuesday": true,
+            "friday": true,
+            "wednesday": true,
+            "thursday": true,
+            "sunday": false,
+            "saturday": false
+          }
+        }
+      ],
+      "departure_date_time": "20230213T135710",
+      "requested_date_time": "20230213T113622",
+      "fare": {
+        "found": false,
+        "total": {
+          "value": "0.0"
+        },
+        "links": []
+      },
+      "co2_emission": {
+        "value": 490.2967,
+        "unit": "gEC"
+      },
+      "type": "less_fallback_walk",
+      "duration": 6029,
+      "sections": [
+        {
+          "from": {
+            "embedded_type": "address",
+            "id": "-1.613655;48.113296",
+            "quality": 0,
+            "name": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+            "address": {
+              "name": "11 Rue du Champ du Moulin",
+              "house_number": 11,
+              "coord": {
+                "lat": "48.113296",
+                "lon": "-1.613655"
+              },
+              "label": "11 Rue du Champ du Moulin (Cesson-S\u00e9vign\u00e9)",
+              "administrative_regions": [
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35051",
+                  "name": "Cesson-S\u00e9vign\u00e9",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1197799",
+                    "lon": "-1.6038829"
+                  },
+                  "label": "Cesson-S\u00e9vign\u00e9 (35510), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35051",
+                  "zip_code": "35510"
+                }
+              ],
+              "id": "-1.613655;48.113296"
+            }
+          },
+          "links": [],
+          "arrival_date_time": "20230213T141400",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87334490"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87334490"
+                  }
+                ],
+                "name": "Cesson-S\u00e9vign\u00e9",
+                "links": [],
+                "coord": {
+                  "lat": "48.112367",
+                  "lon": "-1.602504"
+                },
+                "label": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87334490"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.112367",
+                "lon": "-1.602504"
+              },
+              "label": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35051",
+                  "name": "Cesson-S\u00e9vign\u00e9",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.119779",
+                    "lon": "-1.603882"
+                  },
+                  "label": "Cesson-S\u00e9vign\u00e9 (35510)",
+                  "id": "admin:fr:35051",
+                  "zip_code": "35510"
+                }
+              ],
+              "address": {
+                "house_number": 1,
+                "label": "1 Avenue des Peupliers (Cesson-S\u00e9vign\u00e9)",
+                "name": "Avenue des Peupliers",
+                "coord": {
+                  "lat": "48.112367",
+                  "lon": "-1.602504"
+                },
+                "id": "-1.602504;48.112367"
+              },
+              "id": "stop_point:STE:OCETrainTER-87334490",
+              "name": "Cesson-S\u00e9vign\u00e9"
+            },
+            "quality": 0,
+            "name": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+            "id": "stop_point:STE:OCETrainTER-87334490"
+          },
+          "departure_date_time": "20230213T135710",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 1121
+              }
+            ],
+            "coordinates": [
+              [
+                -1.613655,
+                48.113296
+              ],
+              [
+                -1.613661,
+                48.113366
+              ],
+              [
+                -1.613534,
+                48.113367
+              ],
+              [
+                -1.613209,
+                48.11337
+              ],
+              [
+                -1.613094,
+                48.113373
+              ],
+              [
+                -1.61308,
+                48.113451
+              ],
+              [
+                -1.613086,
+                48.114149
+              ],
+              [
+                -1.613089,
+                48.114185
+              ],
+              [
+                -1.612385,
+                48.114193
+              ],
+              [
+                -1.611902,
+                48.114199
+              ],
+              [
+                -1.611487,
+                48.114204
+              ],
+              [
+                -1.610851,
+                48.11421
+              ],
+              [
+                -1.610774,
+                48.114221
+              ],
+              [
+                -1.610701,
+                48.114234
+              ],
+              [
+                -1.610599,
+                48.114258
+              ],
+              [
+                -1.610541,
+                48.114261
+              ],
+              [
+                -1.610475,
+                48.114258
+              ],
+              [
+                -1.610411,
+                48.11425
+              ],
+              [
+                -1.610328,
+                48.114238
+              ],
+              [
+                -1.610308,
+                48.114227
+              ],
+              [
+                -1.610285,
+                48.114219
+              ],
+              [
+                -1.61026,
+                48.114214
+              ],
+              [
+                -1.610234,
+                48.114213
+              ],
+              [
+                -1.610209,
+                48.114214
+              ],
+              [
+                -1.610184,
+                48.11422
+              ],
+              [
+                -1.610162,
+                48.114228
+              ],
+              [
+                -1.610142,
+                48.114239
+              ],
+              [
+                -1.610126,
+                48.114252
+              ],
+              [
+                -1.609995,
+                48.114253
+              ],
+              [
+                -1.609813,
+                48.114273
+              ],
+              [
+                -1.609737,
+                48.114273
+              ],
+              [
+                -1.609641,
+                48.114273
+              ],
+              [
+                -1.609166,
+                48.11428
+              ],
+              [
+                -1.608709,
+                48.114285
+              ],
+              [
+                -1.608605,
+                48.114286
+              ],
+              [
+                -1.60845,
+                48.114288
+              ],
+              [
+                -1.60825,
+                48.114288
+              ],
+              [
+                -1.607911,
+                48.114295
+              ],
+              [
+                -1.607835,
+                48.114306
+              ],
+              [
+                -1.607758,
+                48.114322
+              ],
+              [
+                -1.607761,
+                48.114335
+              ],
+              [
+                -1.607758,
+                48.114352
+              ],
+              [
+                -1.607632,
+                48.114399
+              ],
+              [
+                -1.607528,
+                48.11445
+              ],
+              [
+                -1.607346,
+                48.114475
+              ],
+              [
+                -1.607244,
+                48.114451
+              ],
+              [
+                -1.607117,
+                48.114392
+              ],
+              [
+                -1.607023,
+                48.114389
+              ],
+              [
+                -1.606804,
+                48.114385
+              ],
+              [
+                -1.606546,
+                48.114406
+              ],
+              [
+                -1.606231,
+                48.11443
+              ],
+              [
+                -1.605791,
+                48.114432
+              ],
+              [
+                -1.605426,
+                48.114437
+              ],
+              [
+                -1.605144,
+                48.114437
+              ],
+              [
+                -1.604894,
+                48.114463
+              ],
+              [
+                -1.604684,
+                48.114474
+              ],
+              [
+                -1.604496,
+                48.114463
+              ],
+              [
+                -1.604385,
+                48.114443
+              ],
+              [
+                -1.604242,
+                48.114417
+              ],
+              [
+                -1.604119,
+                48.114404
+              ],
+              [
+                -1.603804,
+                48.114402
+              ],
+              [
+                -1.603797,
+                48.114308
+              ],
+              [
+                -1.603799,
+                48.114239
+              ],
+              [
+                -1.603664,
+                48.114178
+              ],
+              [
+                -1.603581,
+                48.114141
+              ],
+              [
+                -1.60354,
+                48.114141
+              ],
+              [
+                -1.603501,
+                48.11411
+              ],
+              [
+                -1.60346,
+                48.114086
+              ],
+              [
+                -1.603408,
+                48.114061
+              ],
+              [
+                -1.603368,
+                48.11403
+              ],
+              [
+                -1.603251,
+                48.113938
+              ],
+              [
+                -1.603215,
+                48.113909
+              ],
+              [
+                -1.603186,
+                48.11388
+              ],
+              [
+                -1.603159,
+                48.113839
+              ],
+              [
+                -1.603066,
+                48.113755
+              ],
+              [
+                -1.60299,
+                48.113703
+              ],
+              [
+                -1.602925,
+                48.113665
+              ],
+              [
+                -1.602878,
+                48.113654
+              ],
+              [
+                -1.602837,
+                48.113635
+              ],
+              [
+                -1.602805,
+                48.11361
+              ],
+              [
+                -1.602784,
+                48.11358
+              ],
+              [
+                -1.602774,
+                48.113548
+              ],
+              [
+                -1.602778,
+                48.113515
+              ],
+              [
+                -1.60275,
+                48.113467
+              ],
+              [
+                -1.602724,
+                48.113429
+              ],
+              [
+                -1.602689,
+                48.11339
+              ],
+              [
+                -1.602651,
+                48.113348
+              ],
+              [
+                -1.602569,
+                48.113279
+              ],
+              [
+                -1.602488,
+                48.113205
+              ],
+              [
+                -1.602414,
+                48.113118
+              ],
+              [
+                -1.602338,
+                48.113012
+              ],
+              [
+                -1.6023,
+                48.112938
+              ],
+              [
+                -1.602282,
+                48.112872
+              ],
+              [
+                -1.602581,
+                48.112806
+              ],
+              [
+                -1.602534,
+                48.112707
+              ],
+              [
+                -1.602501,
+                48.112663
+              ],
+              [
+                -1.602444,
+                48.112496
+              ],
+              [
+                -1.602413,
+                48.112451
+              ],
+              [
+                -1.602382,
+                48.112409
+              ],
+              [
+                -1.602504,
+                48.112367
+              ]
+            ]
+          },
+          "duration": 1010,
+          "path": [
+            {
+              "direction": 0,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113366",
+                "lon": "-1.613661"
+              },
+              "instruction": "Marchez vers l'est sur Rue du Champ du Moulin. Continuez sur 42 m.",
+              "length": 42,
+              "duration": 40
+            },
+            {
+              "direction": -84,
+              "name": "Rue du Champ du Moulin",
+              "instruction_start_coordinate": {
+                "lat": "48.113373",
+                "lon": "-1.613094"
+              },
+              "instruction": "Tournez \u00e0 gauche pour rester sur Rue du Champ du Moulin. Continuez sur 90 m.",
+              "length": 90,
+              "duration": 73
+            },
+            {
+              "direction": 90,
+              "name": "Rue de Rennes",
+              "instruction_start_coordinate": {
+                "lat": "48.114185",
+                "lon": "-1.613089"
+              },
+              "instruction": "Tournez \u00e0 droite dans Rue de Rennes. Continuez sur 206 m.",
+              "length": 206,
+              "duration": 183
+            },
+            {
+              "direction": 16,
+              "name": "Place S\u00e9vign\u00e9",
+              "instruction_start_coordinate": {
+                "lat": "48.114238",
+                "lon": "-1.610328"
+              },
+              "instruction": "Serrez \u00e0 droite dans Place S\u00e9vign\u00e9. Continuez sur 18 m.",
+              "length": 18,
+              "duration": 16
+            },
+            {
+              "direction": 44,
+              "name": "Rue de Paris",
+              "instruction_start_coordinate": {
+                "lat": "48.114252",
+                "lon": "-1.610126"
+              },
+              "instruction": "Gardez la droite pour prendre Rue de Paris. Continuez sur 165 m.",
+              "length": 165,
+              "duration": 139
+            },
+            {
+              "direction": -10,
+              "name": "Rue de Paris",
+              "instruction_start_coordinate": {
+                "lat": "48.114295",
+                "lon": "-1.607911"
+              },
+              "instruction": "Gardez la gauche pour rester sur Rue de Paris. Continuez sur 12 m.",
+              "length": 12,
+              "duration": 11
+            },
+            {
+              "direction": -73,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114322",
+                "lon": "-1.607758"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 3 m.",
+              "length": 3,
+              "duration": 3
+            },
+            {
+              "direction": 61,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114352",
+                "lon": "-1.607758"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 249 m.",
+              "length": 249,
+              "duration": 228
+            },
+            {
+              "direction": 10,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114463",
+                "lon": "-1.604496"
+              },
+              "instruction": "Gardez la droite pour prendre l'all\u00e9e. Continuez sur 93 m.",
+              "length": 93,
+              "duration": 84
+            },
+            {
+              "direction": 22,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.114141",
+                "lon": "-1.60354"
+              },
+              "instruction": "Serrez \u00e0 droite. Continuez sur 44 m.",
+              "length": 44,
+              "duration": 51
+            },
+            {
+              "direction": -6,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.113839",
+                "lon": "-1.603159"
+              },
+              "instruction": "Gardez la gauche \u00e0 la fourche. Continuez sur 49 m.",
+              "length": 49,
+              "duration": 43
+            },
+            {
+              "direction": -7,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.113515",
+                "lon": "-1.602778"
+              },
+              "instruction": "Gardez la gauche \u00e0 la fourche. Continuez sur 81 m.",
+              "length": 81,
+              "duration": 82
+            },
+            {
+              "direction": 87,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.112872",
+                "lon": "-1.602282"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 69 m.",
+              "length": 70,
+              "duration": 58
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.112409",
+                "lon": "-1.602382"
+              },
+              "instruction": "Votre destination est sur la droite.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "type": "street_network",
+          "id": "vqJfVRdosqo4oQWj5r3ciC_3",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 34,
+              "geojson_offset": 2,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 129,
+              "geojson_offset": 5,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 252,
+              "geojson_offset": 9,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 305,
+              "geojson_offset": 11,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 356,
+              "geojson_offset": 26,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 428,
+              "geojson_offset": 31,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 481,
+              "geojson_offset": 34,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 521,
+              "geojson_offset": 36,
+              "elevation": 26
+            },
+            {
+              "distance_from_start": 597,
+              "geojson_offset": 46,
+              "elevation": 27
+            },
+            {
+              "distance_from_start": 613,
+              "geojson_offset": 47,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 656,
+              "geojson_offset": 49,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 689,
+              "geojson_offset": 50,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 737,
+              "geojson_offset": 52,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 785,
+              "geojson_offset": 55,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 805,
+              "geojson_offset": 57,
+              "elevation": 27
+            },
+            {
+              "distance_from_start": 883,
+              "geojson_offset": 65,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 896,
+              "geojson_offset": 68,
+              "elevation": 29
+            },
+            {
+              "distance_from_start": 910,
+              "geojson_offset": 69,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 918,
+              "geojson_offset": 71,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 971,
+              "geojson_offset": 81,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 1002,
+              "geojson_offset": 86,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 1012,
+              "geojson_offset": 87,
+              "elevation": 32
+            },
+            {
+              "distance_from_start": 1036,
+              "geojson_offset": 89,
+              "elevation": 33
+            },
+            {
+              "distance_from_start": 1076,
+              "geojson_offset": 92,
+              "elevation": 30
+            },
+            {
+              "distance_from_start": 1087,
+              "geojson_offset": 93,
+              "elevation": 31
+            },
+            {
+              "distance_from_start": 1117,
+              "geojson_offset": 96,
+              "elevation": 32
+            }
+          ],
+          "mode": "walking"
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87334490"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87334490"
+                  }
+                ],
+                "name": "Cesson-S\u00e9vign\u00e9",
+                "links": [],
+                "coord": {
+                  "lat": "48.112367",
+                  "lon": "-1.602504"
+                },
+                "label": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87334490"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.112367",
+                "lon": "-1.602504"
+              },
+              "label": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35051",
+                  "name": "Cesson-S\u00e9vign\u00e9",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.119779",
+                    "lon": "-1.603882"
+                  },
+                  "label": "Cesson-S\u00e9vign\u00e9 (35510)",
+                  "id": "admin:fr:35051",
+                  "zip_code": "35510"
+                }
+              ],
+              "address": {
+                "house_number": 1,
+                "label": "1 Avenue des Peupliers (Cesson-S\u00e9vign\u00e9)",
+                "name": "Avenue des Peupliers",
+                "coord": {
+                  "lat": "48.112367",
+                  "lon": "-1.602504"
+                },
+                "id": "-1.602504;48.112367"
+              },
+              "id": "stop_point:STE:OCETrainTER-87334490",
+              "name": "Cesson-S\u00e9vign\u00e9"
+            },
+            "quality": 0,
+            "name": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+            "id": "stop_point:STE:OCETrainTER-87334490"
+          },
+          "links": [
+            {
+              "type": "vehicle_journey",
+              "id": "vehicle_journey:STE:OCESN855247F914546:2023-02-08T00:42:08Z_dst_1"
+            },
+            {
+              "type": "line",
+              "id": "line:STE:FR:Line::5D89C2F5-735F-4E7B-BD48-FF6274049ADC:"
+            },
+            {
+              "type": "route",
+              "id": "route:STE:FR:Line::5D89C2F5-735F-4E7B-BD48-FF6274049ADC:_R"
+            },
+            {
+              "type": "commercial_mode",
+              "id": "commercial_mode:Train"
+            },
+            {
+              "type": "physical_mode",
+              "id": "physical_mode:Train"
+            },
+            {
+              "type": "network",
+              "id": "network:SNCF"
+            }
+          ],
+          "arrival_date_time": "20230213T142100",
+          "additional_informations": [
+            "regular"
+          ],
+          "co2_emission": {
+            "value": 62.7487,
+            "unit": "gEC"
+          },
+          "display_informations": {
+            "direction": "Rennes (Rennes)",
+            "code": "C4",
+            "description": "",
+            "links": [
+              {
+                "internal": true,
+                "type": "stop_area",
+                "id": "stop_area:STE:OCE87471003",
+                "rel": "terminus",
+                "templated": false
+              }
+            ],
+            "color": "",
+            "physical_mode": "Train",
+            "headsign": "855247",
+            "commercial_mode": "Train",
+            "equipments": [],
+            "trip_short_name": "855247",
+            "label": "C4",
+            "text_color": "",
+            "network": "SNCF",
+            "name": "Rennes - Vitre"
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCETrainTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCETrainTER-87471003"
+          },
+          "base_arrival_date_time": "20230213T142100",
+          "base_departure_date_time": "20230213T141400",
+          "departure_date_time": "20230213T141400",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 5273
+              }
+            ],
+            "coordinates": [
+              [
+                -1.602504,
+                48.112367
+              ],
+              [
+                -1.672131,
+                48.103071
+              ]
+            ]
+          },
+          "duration": 420,
+          "type": "public_transport",
+          "id": "section_0_3",
+          "data_freshness": "base_schedule",
+          "stop_date_times": [
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCETrain TER-87334490"
+                  }
+                ],
+                "name": "Cesson-S\u00e9vign\u00e9",
+                "links": [],
+                "coord": {
+                  "lat": "48.112367",
+                  "lon": "-1.602504"
+                },
+                "label": "Cesson-S\u00e9vign\u00e9 (Cesson-S\u00e9vign\u00e9)",
+                "equipments": [],
+                "address": {
+                  "house_number": 1,
+                  "label": "1 Avenue des Peupliers (Cesson-S\u00e9vign\u00e9)",
+                  "name": "Avenue des Peupliers",
+                  "coord": {
+                    "lat": "48.112367",
+                    "lon": "-1.602504"
+                  },
+                  "id": "-1.602504;48.112367"
+                },
+                "id": "stop_point:STE:OCETrainTER-87334490"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T141300",
+              "additional_informations": [],
+              "departure_date_time": "20230213T141400",
+              "base_arrival_date_time": "20230213T141300",
+              "base_departure_date_time": "20230213T141400"
+            },
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCETrain TER-87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "label": "Rennes (Rennes)",
+                "equipments": [],
+                "id": "stop_point:STE:OCETrainTER-87471003"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T142100",
+              "additional_informations": [],
+              "departure_date_time": "20230213T142100",
+              "base_arrival_date_time": "20230213T142100",
+              "base_departure_date_time": "20230213T142100"
+            }
+          ]
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCETrainTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCETrainTER-87471003"
+          },
+          "links": [],
+          "arrival_date_time": "20230213T142100",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCECarTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87471003"
+          },
+          "departure_date_time": "20230213T142100",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 0
+              }
+            ],
+            "coordinates": [
+              [
+                -1.672131,
+                48.103071
+              ],
+              [
+                -1.672131,
+                48.103071
+              ]
+            ]
+          },
+          "duration": 0,
+          "transfer_type": "walking",
+          "type": "transfer",
+          "id": "section_1_3"
+        },
+        {
+          "links": [],
+          "arrival_date_time": "20230213T151300",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "departure_date_time": "20230213T142100",
+          "duration": 3120,
+          "type": "waiting",
+          "id": "section_2_3"
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCECarTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87471003"
+          },
+          "links": [
+            {
+              "type": "vehicle_journey",
+              "id": "vehicle_journey:STE:OCESN36883R1429561:2023-02-08T00:42:08Z_dst_1"
+            },
+            {
+              "type": "line",
+              "id": "line:STE:FR:Line::c4b48fab-829a-49a8-bdd6-4362865c8b1f:"
+            },
+            {
+              "type": "route",
+              "id": "route:STE:FR:Line::c4b48fab-829a-49a8-bdd6-4362865c8b1f:"
+            },
+            {
+              "type": "commercial_mode",
+              "id": "commercial_mode:Bus"
+            },
+            {
+              "type": "physical_mode",
+              "id": "physical_mode:Bus"
+            },
+            {
+              "type": "network",
+              "id": "network:SNCF"
+            }
+          ],
+          "arrival_date_time": "20230213T152500",
+          "additional_informations": [
+            "regular"
+          ],
+          "co2_emission": {
+            "value": 427.548,
+            "unit": "gEC"
+          },
+          "display_informations": {
+            "direction": "Granville (Granville)",
+            "code": "K12",
+            "description": "",
+            "links": [
+              {
+                "internal": true,
+                "type": "stop_area",
+                "id": "stop_area:STE:OCE87444000",
+                "rel": "terminus",
+                "templated": false
+              }
+            ],
+            "color": "",
+            "physical_mode": "Bus",
+            "headsign": "36883",
+            "commercial_mode": "Bus",
+            "equipments": [],
+            "trip_short_name": "36883",
+            "label": "K12",
+            "text_color": "",
+            "network": "SNCF",
+            "name": "Cars CAEN - GRANVILLE - RENNES"
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87717629"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1175"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1312"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1739"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87717629"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.117098",
+                "lon": "-1.633905"
+              },
+              "label": "Rennes Beaulieu Chimie (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.130461",
+                    "lon": "-1.649266"
+                  },
+                  "label": "Quartiers Nord-Est",
+                  "id": "admin:osm:relation:5833874",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.118307",
+                    "lon": "-1.65453"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "id": "admin:osm:relation:5511311",
+                  "zip_code": ""
+                }
+              ],
+              "address": {
+                "house_number": 3,
+                "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                "name": "All\u00e9e de Beaulieu",
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "id": "-1.633905;48.117098"
+              },
+              "id": "stop_point:STE:OCECarTER-87717629",
+              "name": "Rennes Beaulieu Chimie"
+            },
+            "quality": 0,
+            "name": "Rennes Beaulieu Chimie (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87717629"
+          },
+          "base_arrival_date_time": "20230213T152500",
+          "base_departure_date_time": "20230213T151300",
+          "departure_date_time": "20230213T151300",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 3239
+              }
+            ],
+            "coordinates": [
+              [
+                -1.672131,
+                48.103071
+              ],
+              [
+                -1.633905,
+                48.117098
+              ]
+            ]
+          },
+          "duration": 720,
+          "type": "public_transport",
+          "id": "section_3_3",
+          "data_freshness": "base_schedule",
+          "stop_date_times": [
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCECar TER-87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "label": "Rennes (Rennes)",
+                "equipments": [],
+                "id": "stop_point:STE:OCECarTER-87471003"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T151300",
+              "additional_informations": [],
+              "departure_date_time": "20230213T151300",
+              "base_arrival_date_time": "20230213T151300",
+              "base_departure_date_time": "20230213T151300"
+            },
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCECar TER-87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "equipments": [],
+                "address": {
+                  "house_number": 3,
+                  "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                  "name": "All\u00e9e de Beaulieu",
+                  "coord": {
+                    "lat": "48.117098",
+                    "lon": "-1.633905"
+                  },
+                  "id": "-1.633905;48.117098"
+                },
+                "id": "stop_point:STE:OCECarTER-87717629"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T152500",
+              "additional_informations": [],
+              "departure_date_time": "20230213T152500",
+              "base_arrival_date_time": "20230213T152500",
+              "base_departure_date_time": "20230213T152500"
+            }
+          ]
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87717629"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1175"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1312"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1739"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87717629"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.117098",
+                "lon": "-1.633905"
+              },
+              "label": "Rennes Beaulieu Chimie (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.130461",
+                    "lon": "-1.649266"
+                  },
+                  "label": "Quartiers Nord-Est",
+                  "id": "admin:osm:relation:5833874",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.118307",
+                    "lon": "-1.65453"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "id": "admin:osm:relation:5511311",
+                  "zip_code": ""
+                }
+              ],
+              "address": {
+                "house_number": 3,
+                "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                "name": "All\u00e9e de Beaulieu",
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "id": "-1.633905;48.117098"
+              },
+              "id": "stop_point:STE:OCECarTER-87717629",
+              "name": "Rennes Beaulieu Chimie"
+            },
+            "quality": 0,
+            "name": "Rennes Beaulieu Chimie (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87717629"
+          },
+          "links": [],
+          "arrival_date_time": "20230213T153739",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "address",
+            "id": "-1.638895;48.122727",
+            "quality": 0,
+            "name": "4 Avenue Pierre Donzelot (Rennes)",
+            "address": {
+              "name": "4 Avenue Pierre Donzelot",
+              "house_number": 4,
+              "coord": {
+                "lat": "48.122727",
+                "lon": "-1.638895"
+              },
+              "label": "4 Avenue Pierre Donzelot (Rennes)",
+              "administrative_regions": [
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.1183076",
+                    "lon": "-1.6545309"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu, Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5511311"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.1304612347",
+                    "lon": "-1.64926622303"
+                  },
+                  "label": "Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5833874"
+                },
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Rennes (35000-35700), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000-35700"
+                }
+              ],
+              "id": "-1.638895;48.122727"
+            }
+          },
+          "departure_date_time": "20230213T152500",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 846
+              }
+            ],
+            "coordinates": [
+              [
+                -1.633905,
+                48.117098
+              ],
+              [
+                -1.633973,
+                48.11708
+              ],
+              [
+                -1.634139,
+                48.117359
+              ],
+              [
+                -1.634279,
+                48.117614
+              ],
+              [
+                -1.634325,
+                48.117702
+              ],
+              [
+                -1.63436,
+                48.11777
+              ],
+              [
+                -1.634414,
+                48.117874
+              ],
+              [
+                -1.634467,
+                48.117958
+              ],
+              [
+                -1.634553,
+                48.118068
+              ],
+              [
+                -1.635139,
+                48.119062
+              ],
+              [
+                -1.635196,
+                48.11916
+              ],
+              [
+                -1.63523,
+                48.119214
+              ],
+              [
+                -1.6354,
+                48.119506
+              ],
+              [
+                -1.635464,
+                48.119616
+              ],
+              [
+                -1.635643,
+                48.119922
+              ],
+              [
+                -1.635705,
+                48.120027
+              ],
+              [
+                -1.635773,
+                48.120138
+              ],
+              [
+                -1.635805,
+                48.12018
+              ],
+              [
+                -1.635843,
+                48.120213
+              ],
+              [
+                -1.635913,
+                48.120245
+              ],
+              [
+                -1.635984,
+                48.120264
+              ],
+              [
+                -1.63606,
+                48.120264
+              ],
+              [
+                -1.636141,
+                48.120251
+              ],
+              [
+                -1.636859,
+                48.120061
+              ],
+              [
+                -1.636928,
+                48.120047
+              ],
+              [
+                -1.636999,
+                48.120038
+              ],
+              [
+                -1.637071,
+                48.120039
+              ],
+              [
+                -1.637141,
+                48.120047
+              ],
+              [
+                -1.637198,
+                48.120064
+              ],
+              [
+                -1.637249,
+                48.120084
+              ],
+              [
+                -1.637299,
+                48.120115
+              ],
+              [
+                -1.637339,
+                48.120149
+              ],
+              [
+                -1.63747,
+                48.120367
+              ],
+              [
+                -1.637545,
+                48.120496
+              ],
+              [
+                -1.638068,
+                48.121387
+              ],
+              [
+                -1.638107,
+                48.121453
+              ],
+              [
+                -1.638143,
+                48.121514
+              ],
+              [
+                -1.638199,
+                48.121608
+              ],
+              [
+                -1.63829,
+                48.121778
+              ],
+              [
+                -1.638318,
+                48.121829
+              ],
+              [
+                -1.63834,
+                48.121888
+              ],
+              [
+                -1.63841,
+                48.122175
+              ],
+              [
+                -1.638413,
+                48.122189
+              ],
+              [
+                -1.638447,
+                48.122233
+              ],
+              [
+                -1.638456,
+                48.122266
+              ],
+              [
+                -1.638493,
+                48.12226
+              ],
+              [
+                -1.638534,
+                48.122288
+              ],
+              [
+                -1.63863,
+                48.122321
+              ],
+              [
+                -1.638776,
+                48.122329
+              ],
+              [
+                -1.638901,
+                48.122311
+              ],
+              [
+                -1.639014,
+                48.122325
+              ],
+              [
+                -1.639087,
+                48.122307
+              ],
+              [
+                -1.639104,
+                48.122335
+              ],
+              [
+                -1.639109,
+                48.122344
+              ],
+              [
+                -1.639115,
+                48.122353
+              ],
+              [
+                -1.639135,
+                48.122391
+              ],
+              [
+                -1.639156,
+                48.122432
+              ],
+              [
+                -1.639145,
+                48.122438
+              ],
+              [
+                -1.639079,
+                48.122478
+              ],
+              [
+                -1.639092,
+                48.122548
+              ],
+              [
+                -1.639022,
+                48.122566
+              ],
+              [
+                -1.639055,
+                48.122637
+              ],
+              [
+                -1.639081,
+                48.122683
+              ],
+              [
+                -1.638895,
+                48.122727
+              ]
+            ]
+          },
+          "duration": 759,
+          "path": [
+            {
+              "direction": 0,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.11707999999999",
+                "lon": "-1.633973"
+              },
+              "instruction": "Marchez vers le nord sur All\u00e9e de Beaulieu. Continuez sur 387 m.",
+              "length": 387,
+              "duration": 319
+            },
+            {
+              "direction": -48,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.120264",
+                "lon": "-1.635984"
+              },
+              "instruction": "Tournez \u00e0 gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 351 m.",
+              "length": 351,
+              "duration": 334
+            },
+            {
+              "direction": -12,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.122189",
+                "lon": "-1.638413"
+              },
+              "instruction": "Gardez la gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 9 m.",
+              "length": 9,
+              "duration": 8
+            },
+            {
+              "direction": -84,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122266",
+                "lon": "-1.638456"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 3 m.",
+              "length": 3,
+              "duration": 3
+            },
+            {
+              "direction": 52,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12226",
+                "lon": "-1.638493"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 47 m.",
+              "length": 47,
+              "duration": 45
+            },
+            {
+              "direction": 81,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122307",
+                "lon": "-1.639087"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 30 m.",
+              "length": 30,
+              "duration": 33
+            },
+            {
+              "direction": 76,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12254799999999",
+                "lon": "-1.639092"
+              },
+              "instruction": "Tournez \u00e0 droite dans the crosswalk. Continuez sur 6 m.",
+              "length": 6,
+              "duration": 5
+            },
+            {
+              "direction": -86,
+              "name": "Avenue Pierre Donzelot",
+              "instruction_start_coordinate": {
+                "lat": "48.122566",
+                "lon": "-1.639022"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Avenue Pierre Donzelot. Continuez sur 13 m.",
+              "length": 13,
+              "duration": 12
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12268299999999",
+                "lon": "-1.639081"
+              },
+              "instruction": "Votre destination est sur la droite.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "type": "street_network",
+          "id": "dmPtRWsjSNRomttYmnSsJ4_3",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 34,
+              "geojson_offset": 1,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 74,
+              "geojson_offset": 3,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 94,
+              "geojson_offset": 5,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 118,
+              "geojson_offset": 7,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 237,
+              "geojson_offset": 8,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 249,
+              "geojson_offset": 9,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 255,
+              "geojson_offset": 10,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 290,
+              "geojson_offset": 11,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 340,
+              "geojson_offset": 13,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 353,
+              "geojson_offset": 14,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 382,
+              "geojson_offset": 18,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 393,
+              "geojson_offset": 20,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 457,
+              "geojson_offset": 22,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 462,
+              "geojson_offset": 23,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 539,
+              "geojson_offset": 32,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 645,
+              "geojson_offset": 33,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 653,
+              "geojson_offset": 34,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 661,
+              "geojson_offset": 35,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 692,
+              "geojson_offset": 37,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 705,
+              "geojson_offset": 39,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 737,
+              "geojson_offset": 40,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 792,
+              "geojson_offset": 49,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 813,
+              "geojson_offset": 55,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 834,
+              "geojson_offset": 59,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 842,
+              "geojson_offset": 60,
+              "elevation": 47
+            }
+          ],
+          "mode": "walking"
+        }
+      ]
+    }
+  ],
+  "disruptions": [],
+  "notes": [],
+  "feed_publishers": [
+    {
+      "url": "",
+      "id": "fr-nw",
+      "license": "ODbL",
+      "name": "Quart Nord-Ouest Open Data"
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "id": "osm",
+      "license": "ODbL",
+      "name": "openstreetmap"
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/odbl/1.0/index.html",
+      "id": "OBZ:fr_bretagne_open",
+      "license": "ODbL",
+      "name": "Bretagne - MobiBreizh (open)"
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/odbl/1.0/index.html",
+      "id": "ORE:fr_Rennes_open",
+      "license": "ODbL",
+      "name": "Rennes - STAR (open)"
+    },
+    {
+      "url": "https://data.sncf.com/pages/cgu/A1#A1",
+      "id": "STE:fr_SNCF-TER_open",
+      "license": "ODbL",
+      "name": "SNCF TER Open Data"
+    },
+    {
+      "url": "https://data.sncf.com/pages/cgu/A1#A1",
+      "id": "STG:fr_SNCF-TGV_open",
+      "license": "ODbL",
+      "name": "SNCF TGV Open Data"
+    }
+  ],
+  "context": {
+    "timezone": "Europe/Paris",
+    "current_datetime": "20230213T113622",
+    "car_direct_path": {
+      "co2_emission": {
+        "value": 533.5059838996,
+        "unit": "gEC"
+      }
+    }
+  },
+  "exceptions": []
+}

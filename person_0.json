@@ -1,0 +1,2369 @@
+{
+  "tickets": [],
+  "terminus": [
+    {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "ONM:NOMAD14:ST:ARCOM@C009"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:ARCOM@C009"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gasn32"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gndc"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ONM:TWISTO:ST:COM_gs01"
+        },
+        {
+          "type": "source",
+          "value": "NOMAD14:ST:ARCOM@C009"
+        },
+        {
+          "type": "source",
+          "value": "StopArea:OCE87444000"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:ARCOM@C009"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gasn32"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gndc"
+        },
+        {
+          "type": "source",
+          "value": "TWISTO:ST:COM_gs01"
+        }
+      ],
+      "name": "Caen",
+      "links": [],
+      "coord": {
+        "lat": "49.176545",
+        "lon": "-0.348262"
+      },
+      "label": "Caen (Caen)",
+      "timezone": "Europe/Paris",
+      "id": "stop_area:STE:OCE87444000"
+    },
+    {
+      "comment": "Rennes",
+      "codes": [
+        {
+          "type": "gtfs_stop_code",
+          "value": "15008"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+        },
+        {
+          "type": "secondary_id",
+          "value": "OBZ:LRRON:ST:5029"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:15008"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1056"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1477"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1575"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1721"
+        },
+        {
+          "type": "secondary_id",
+          "value": "ORE:Navitia:1722"
+        },
+        {
+          "type": "secondary_id",
+          "value": "STG:StopArea:OCE87471003"
+        },
+        {
+          "type": "source",
+          "value": "15008"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:ARCOM@RNGR"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:AUTO$1267325984"
+        },
+        {
+          "type": "source",
+          "value": "ILLENOO2:ST:AUTO$1644794171"
+        },
+        {
+          "type": "source",
+          "value": "LRRON:ST:5029"
+        },
+        {
+          "type": "source",
+          "value": "StopArea:OCE87471003"
+        }
+      ],
+      "name": "Rennes",
+      "links": [],
+      "comments": [
+        {
+          "type": "information",
+          "value": "Rennes"
+        }
+      ],
+      "label": "Rennes (Rennes)",
+      "coord": {
+        "lat": "48.103071",
+        "lon": "-1.672131"
+      },
+      "timezone": "Europe/Paris",
+      "id": "stop_area:STE:OCE87471003"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=departure&from=-1.740712;48.04477&to=-1.638895;48.122727&datetime=20230213T135159",
+      "type": "next",
+      "rel": "next",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=arrival&from=-1.740712;48.04477&to=-1.638895;48.122727&datetime=20230213T153738",
+      "type": "prev",
+      "rel": "prev",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=departure&from=-1.740712;48.04477&to=-1.638895;48.122727&datetime=20230213T000000",
+      "type": "first",
+      "rel": "first",
+      "templated": false
+    },
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-nw/journeys?traveler_type=standard&datetime_represents=arrival&from=-1.740712;48.04477&to=-1.638895;48.122727&datetime=20230213T235959",
+      "type": "last",
+      "rel": "last",
+      "templated": false
+    }
+  ],
+  "journeys": [
+    {
+      "status": "",
+      "distances": {
+        "taxi": 0,
+        "car": 0,
+        "walking": 1051,
+        "bike": 0,
+        "ridesharing": 0
+      },
+      "links": [
+        {
+          "href": "https://api.navitia.io/v1/journeys?first_section_mode%5B%5D=walking&direct_path=none&to=-1.638895%3B48.122727&traveler_type=standard&is_journey_schedules=True&datetime=20230213T135158&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=1&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87159947&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87471003&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87717629&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87471003&from=-1.740712%3B48.04477",
+          "type": "journeys",
+          "rel": "same_journey_schedules",
+          "templated": false
+        },
+        {
+          "href": "https://api.navitia.io/v1/journeys?count=1&first_section_mode%5B%5D=walking&direct_path=none&to=-1.638895%3B48.122727&traveler_type=standard&is_journey_schedules=True&datetime=20230213T135158&last_section_mode%5B%5D=walking&min_nb_journeys=1&min_nb_transfers=1&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87159947&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87471003&allowed_id%5B%5D=stop_point%3ASTE%3AOCECarTER-87717629&allowed_id%5B%5D=stop_point%3ASTE%3AOCETrainTER-87471003&from=-1.740712%3B48.04477",
+          "type": "journeys",
+          "rel": "this_journey",
+          "templated": false
+        }
+      ],
+      "tags": [
+        "walking",
+        "ecologic"
+      ],
+      "nb_transfers": 1,
+      "durations": {
+        "taxi": 0,
+        "walking": 941,
+        "car": 0,
+        "ridesharing": 0,
+        "bike": 0,
+        "total": 6341
+      },
+      "arrival_date_time": "20230213T153739",
+      "calendars": [
+        {
+          "active_periods": [
+            {
+              "begin": "20230209",
+              "end": "20230325"
+            }
+          ],
+          "week_pattern": {
+            "monday": true,
+            "tuesday": true,
+            "friday": true,
+            "wednesday": true,
+            "thursday": true,
+            "sunday": false,
+            "saturday": false
+          }
+        }
+      ],
+      "departure_date_time": "20230213T135158",
+      "requested_date_time": "20230213T113621",
+      "fare": {
+        "found": false,
+        "total": {
+          "value": "0.0"
+        },
+        "links": []
+      },
+      "co2_emission": {
+        "value": 525.723,
+        "unit": "gEC"
+      },
+      "type": "best",
+      "duration": 6341,
+      "sections": [
+        {
+          "from": {
+            "embedded_type": "address",
+            "id": "-1.740712;48.04477",
+            "quality": 0,
+            "name": "3 Rue Louis Armand (Bruz)",
+            "address": {
+              "name": "3 Rue Louis Armand",
+              "house_number": 3,
+              "coord": {
+                "lat": "48.04477",
+                "lon": "-1.740712"
+              },
+              "label": "3 Rue Louis Armand (Bruz)",
+              "administrative_regions": [
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35047",
+                  "name": "Bruz",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.0245814",
+                    "lon": "-1.7471629"
+                  },
+                  "label": "Bruz (35170), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35047",
+                  "zip_code": "35170"
+                }
+              ],
+              "id": "-1.740712;48.04477"
+            }
+          },
+          "links": [],
+          "arrival_date_time": "20230213T135500",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87159947"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87159947"
+                  }
+                ],
+                "name": "Ker Lann",
+                "links": [],
+                "coord": {
+                  "lat": "48.043824",
+                  "lon": "-1.73894"
+                },
+                "label": "Ker Lann (Bruz)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87159947"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.043824",
+                "lon": "-1.73894"
+              },
+              "label": "Ker Lann (Bruz)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35047",
+                  "name": "Bruz",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.024581",
+                    "lon": "-1.747162"
+                  },
+                  "label": "Bruz (35170)",
+                  "id": "admin:fr:35047",
+                  "zip_code": "35170"
+                }
+              ],
+              "address": {
+                "house_number": 15,
+                "label": "15 Rue Louis Armand (Bruz)",
+                "name": "Rue Louis Armand",
+                "coord": {
+                  "lat": "48.043824",
+                  "lon": "-1.73894"
+                },
+                "id": "-1.73894;48.043824"
+              },
+              "id": "stop_point:STE:OCETrainTER-87159947",
+              "name": "Ker Lann"
+            },
+            "quality": 0,
+            "name": "Ker Lann (Bruz)",
+            "id": "stop_point:STE:OCETrainTER-87159947"
+          },
+          "departure_date_time": "20230213T135158",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 205
+              }
+            ],
+            "coordinates": [
+              [
+                -1.740712,
+                48.04477
+              ],
+              [
+                -1.740908,
+                48.044714
+              ],
+              [
+                -1.740667,
+                48.044329
+              ],
+              [
+                -1.740093,
+                48.044272
+              ],
+              [
+                -1.739431,
+                48.044205
+              ],
+              [
+                -1.739307,
+                48.044195
+              ],
+              [
+                -1.739244,
+                48.04419
+              ],
+              [
+                -1.739044,
+                48.044164
+              ],
+              [
+                -1.739053,
+                48.044109
+              ],
+              [
+                -1.739097,
+                48.043834
+              ],
+              [
+                -1.73894,
+                48.043824
+              ]
+            ]
+          },
+          "duration": 182,
+          "path": [
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.044714",
+                "lon": "-1.740908"
+              },
+              "instruction": "Marchez vers le sud. Continuez sur 46 m.",
+              "length": 46,
+              "duration": 42
+            },
+            {
+              "direction": -59,
+              "name": "Rue Louis Armand",
+              "instruction_start_coordinate": {
+                "lat": "48.044329",
+                "lon": "-1.740667"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Rue Louis Armand. Continuez sur 122 m.",
+              "length": 122,
+              "duration": 108
+            },
+            {
+              "direction": 85,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.04416399999999",
+                "lon": "-1.739044"
+              },
+              "instruction": "Tournez \u00e0 droite. Continuez sur 37 m.",
+              "length": 37,
+              "duration": 33
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.043834",
+                "lon": "-1.739097"
+              },
+              "instruction": "Vous \u00eates arriv\u00e9 \u00e0 votre destination.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "type": "street_network",
+          "id": "fdSfmgL4YKPSrtgAhHbQLK_2",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 28
+            },
+            {
+              "distance_from_start": 169,
+              "geojson_offset": 6,
+              "elevation": 27
+            }
+          ],
+          "mode": "walking"
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87159947"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87159947"
+                  }
+                ],
+                "name": "Ker Lann",
+                "links": [],
+                "coord": {
+                  "lat": "48.043824",
+                  "lon": "-1.73894"
+                },
+                "label": "Ker Lann (Bruz)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87159947"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.043824",
+                "lon": "-1.73894"
+              },
+              "label": "Ker Lann (Bruz)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35047",
+                  "name": "Bruz",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.024581",
+                    "lon": "-1.747162"
+                  },
+                  "label": "Bruz (35170)",
+                  "id": "admin:fr:35047",
+                  "zip_code": "35170"
+                }
+              ],
+              "address": {
+                "house_number": 15,
+                "label": "15 Rue Louis Armand (Bruz)",
+                "name": "Rue Louis Armand",
+                "coord": {
+                  "lat": "48.043824",
+                  "lon": "-1.73894"
+                },
+                "id": "-1.73894;48.043824"
+              },
+              "id": "stop_point:STE:OCETrainTER-87159947",
+              "name": "Ker Lann"
+            },
+            "quality": 0,
+            "name": "Ker Lann (Bruz)",
+            "id": "stop_point:STE:OCETrainTER-87159947"
+          },
+          "links": [
+            {
+              "type": "vehicle_journey",
+              "id": "vehicle_journey:STE:OCESN856046F1587761:2023-02-08T00:42:08Z_dst_1"
+            },
+            {
+              "type": "line",
+              "id": "line:STE:FR:Line::6480700B-AEFE-47AA-B7EC-814EA0C92E02:"
+            },
+            {
+              "type": "route",
+              "id": "route:STE:FR:Line::6480700B-AEFE-47AA-B7EC-814EA0C92E02:"
+            },
+            {
+              "type": "commercial_mode",
+              "id": "commercial_mode:Train"
+            },
+            {
+              "type": "physical_mode",
+              "id": "physical_mode:Train"
+            },
+            {
+              "type": "network",
+              "id": "network:SNCF"
+            }
+          ],
+          "arrival_date_time": "20230213T140200",
+          "additional_informations": [
+            "regular"
+          ],
+          "co2_emission": {
+            "value": 98.175,
+            "unit": "gEC"
+          },
+          "display_informations": {
+            "direction": "Rennes (Rennes)",
+            "code": "C2",
+            "description": "",
+            "links": [
+              {
+                "internal": true,
+                "type": "stop_area",
+                "id": "stop_area:STE:OCE87471003",
+                "rel": "terminus",
+                "templated": false
+              }
+            ],
+            "color": "",
+            "physical_mode": "Train",
+            "headsign": "856046",
+            "commercial_mode": "Train",
+            "equipments": [],
+            "trip_short_name": "856046",
+            "label": "C2",
+            "text_color": "",
+            "network": "SNCF",
+            "name": "Rennes - Messac-Guipry"
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCETrainTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCETrainTER-87471003"
+          },
+          "base_arrival_date_time": "20230213T140200",
+          "base_departure_date_time": "20230213T135500",
+          "departure_date_time": "20230213T135500",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 8250
+              }
+            ],
+            "coordinates": [
+              [
+                -1.73894,
+                48.043824
+              ],
+              [
+                -1.672131,
+                48.103071
+              ]
+            ]
+          },
+          "duration": 420,
+          "type": "public_transport",
+          "id": "section_0_2",
+          "data_freshness": "base_schedule",
+          "stop_date_times": [
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCETrain TER-87159947"
+                  }
+                ],
+                "name": "Ker Lann",
+                "links": [],
+                "coord": {
+                  "lat": "48.043824",
+                  "lon": "-1.73894"
+                },
+                "label": "Ker Lann (Bruz)",
+                "equipments": [],
+                "address": {
+                  "house_number": 15,
+                  "label": "15 Rue Louis Armand (Bruz)",
+                  "name": "Rue Louis Armand",
+                  "coord": {
+                    "lat": "48.043824",
+                    "lon": "-1.73894"
+                  },
+                  "id": "-1.73894;48.043824"
+                },
+                "id": "stop_point:STE:OCETrainTER-87159947"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T135400",
+              "additional_informations": [],
+              "departure_date_time": "20230213T135500",
+              "base_arrival_date_time": "20230213T135400",
+              "base_departure_date_time": "20230213T135500"
+            },
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCETrain TER-87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "label": "Rennes (Rennes)",
+                "equipments": [],
+                "id": "stop_point:STE:OCETrainTER-87471003"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T140200",
+              "additional_informations": [],
+              "departure_date_time": "20230213T140200",
+              "base_arrival_date_time": "20230213T140200",
+              "base_departure_date_time": "20230213T140200"
+            }
+          ]
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCETrain TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCETrainTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCETrainTER-87471003"
+          },
+          "links": [],
+          "arrival_date_time": "20230213T140200",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCECarTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87471003"
+          },
+          "departure_date_time": "20230213T140200",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 0
+              }
+            ],
+            "coordinates": [
+              [
+                -1.672131,
+                48.103071
+              ],
+              [
+                -1.672131,
+                48.103071
+              ]
+            ]
+          },
+          "duration": 0,
+          "transfer_type": "walking",
+          "type": "transfer",
+          "id": "section_1_2"
+        },
+        {
+          "links": [],
+          "arrival_date_time": "20230213T151300",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "departure_date_time": "20230213T140200",
+          "duration": 4260,
+          "type": "waiting",
+          "id": "section_2_2"
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87471003"
+                }
+              ],
+              "name": "Rennes",
+              "links": [],
+              "coord": {
+                "lat": "48.103071",
+                "lon": "-1.672131"
+              },
+              "label": "Rennes (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Sud-Ouest",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.091462",
+                    "lon": "-1.679633"
+                  },
+                  "label": "Quartiers Sud-Ouest",
+                  "id": "admin:osm:relation:5833878",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Sud-Gare",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.095747",
+                    "lon": "-1.667128"
+                  },
+                  "label": "Sud-Gare",
+                  "id": "admin:osm:relation:5511315",
+                  "zip_code": ""
+                }
+              ],
+              "id": "stop_point:STE:OCECarTER-87471003",
+              "stop_area": {
+                "comment": "Rennes",
+                "codes": [
+                  {
+                    "type": "gtfs_stop_code",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "OBZ:LRRON:ST:5029"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:15008"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1056"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1477"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1575"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1721"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1722"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "STG:StopArea:OCE87471003"
+                  },
+                  {
+                    "type": "source",
+                    "value": "15008"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:ARCOM@RNGR"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1267325984"
+                  },
+                  {
+                    "type": "source",
+                    "value": "ILLENOO2:ST:AUTO$1644794171"
+                  },
+                  {
+                    "type": "source",
+                    "value": "LRRON:ST:5029"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "comments": [
+                  {
+                    "type": "information",
+                    "value": "Rennes"
+                  }
+                ],
+                "label": "Rennes (Rennes)",
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87471003"
+              }
+            },
+            "quality": 0,
+            "name": "Rennes (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87471003"
+          },
+          "links": [
+            {
+              "type": "vehicle_journey",
+              "id": "vehicle_journey:STE:OCESN36883R1429561:2023-02-08T00:42:08Z_dst_1"
+            },
+            {
+              "type": "line",
+              "id": "line:STE:FR:Line::c4b48fab-829a-49a8-bdd6-4362865c8b1f:"
+            },
+            {
+              "type": "route",
+              "id": "route:STE:FR:Line::c4b48fab-829a-49a8-bdd6-4362865c8b1f:"
+            },
+            {
+              "type": "commercial_mode",
+              "id": "commercial_mode:Bus"
+            },
+            {
+              "type": "physical_mode",
+              "id": "physical_mode:Bus"
+            },
+            {
+              "type": "network",
+              "id": "network:SNCF"
+            }
+          ],
+          "arrival_date_time": "20230213T152500",
+          "additional_informations": [
+            "regular"
+          ],
+          "co2_emission": {
+            "value": 427.548,
+            "unit": "gEC"
+          },
+          "display_informations": {
+            "direction": "Granville (Granville)",
+            "code": "K12",
+            "description": "",
+            "links": [
+              {
+                "internal": true,
+                "type": "stop_area",
+                "id": "stop_area:STE:OCE87444000",
+                "rel": "terminus",
+                "templated": false
+              }
+            ],
+            "color": "",
+            "physical_mode": "Bus",
+            "headsign": "36883",
+            "commercial_mode": "Bus",
+            "equipments": [],
+            "trip_short_name": "36883",
+            "label": "K12",
+            "text_color": "",
+            "network": "SNCF",
+            "name": "Cars CAEN - GRANVILLE - RENNES"
+          },
+          "to": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87717629"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1175"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1312"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1739"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87717629"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.117098",
+                "lon": "-1.633905"
+              },
+              "label": "Rennes Beaulieu Chimie (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.130461",
+                    "lon": "-1.649266"
+                  },
+                  "label": "Quartiers Nord-Est",
+                  "id": "admin:osm:relation:5833874",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.118307",
+                    "lon": "-1.65453"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "id": "admin:osm:relation:5511311",
+                  "zip_code": ""
+                }
+              ],
+              "address": {
+                "house_number": 3,
+                "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                "name": "All\u00e9e de Beaulieu",
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "id": "-1.633905;48.117098"
+              },
+              "id": "stop_point:STE:OCECarTER-87717629",
+              "name": "Rennes Beaulieu Chimie"
+            },
+            "quality": 0,
+            "name": "Rennes Beaulieu Chimie (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87717629"
+          },
+          "base_arrival_date_time": "20230213T152500",
+          "base_departure_date_time": "20230213T151300",
+          "departure_date_time": "20230213T151300",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 3239
+              }
+            ],
+            "coordinates": [
+              [
+                -1.672131,
+                48.103071
+              ],
+              [
+                -1.633905,
+                48.117098
+              ]
+            ]
+          },
+          "duration": 720,
+          "type": "public_transport",
+          "id": "section_3_2",
+          "data_freshness": "base_schedule",
+          "stop_date_times": [
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCECar TER-87471003"
+                  }
+                ],
+                "name": "Rennes",
+                "links": [],
+                "coord": {
+                  "lat": "48.103071",
+                  "lon": "-1.672131"
+                },
+                "label": "Rennes (Rennes)",
+                "equipments": [],
+                "id": "stop_point:STE:OCECarTER-87471003"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T151300",
+              "additional_informations": [],
+              "departure_date_time": "20230213T151300",
+              "base_arrival_date_time": "20230213T151300",
+              "base_departure_date_time": "20230213T151300"
+            },
+            {
+              "stop_point": {
+                "codes": [
+                  {
+                    "type": "source",
+                    "value": "StopPoint:OCECar TER-87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "equipments": [],
+                "address": {
+                  "house_number": 3,
+                  "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                  "name": "All\u00e9e de Beaulieu",
+                  "coord": {
+                    "lat": "48.117098",
+                    "lon": "-1.633905"
+                  },
+                  "id": "-1.633905;48.117098"
+                },
+                "id": "stop_point:STE:OCECarTER-87717629"
+              },
+              "links": [],
+              "arrival_date_time": "20230213T152500",
+              "additional_informations": [],
+              "departure_date_time": "20230213T152500",
+              "base_arrival_date_time": "20230213T152500",
+              "base_departure_date_time": "20230213T152500"
+            }
+          ]
+        },
+        {
+          "from": {
+            "embedded_type": "stop_point",
+            "stop_point": {
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "StopPoint:OCECar TER-87717629"
+                }
+              ],
+              "stop_area": {
+                "codes": [
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1175"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1312"
+                  },
+                  {
+                    "type": "secondary_id",
+                    "value": "ORE:Navitia:1739"
+                  },
+                  {
+                    "type": "source",
+                    "value": "StopArea:OCE87717629"
+                  }
+                ],
+                "name": "Rennes Beaulieu Chimie",
+                "links": [],
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "label": "Rennes Beaulieu Chimie (Rennes)",
+                "timezone": "Europe/Paris",
+                "id": "stop_area:STE:OCE87717629"
+              },
+              "links": [],
+              "coord": {
+                "lat": "48.117098",
+                "lon": "-1.633905"
+              },
+              "label": "Rennes Beaulieu Chimie (Rennes)",
+              "equipments": [],
+              "administrative_regions": [
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.111338",
+                    "lon": "-1.680019"
+                  },
+                  "label": "Rennes (35000-35700)",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000;35200;35700"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.130461",
+                    "lon": "-1.649266"
+                  },
+                  "label": "Quartiers Nord-Est",
+                  "id": "admin:osm:relation:5833874",
+                  "zip_code": ""
+                },
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.118307",
+                    "lon": "-1.65453"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "id": "admin:osm:relation:5511311",
+                  "zip_code": ""
+                }
+              ],
+              "address": {
+                "house_number": 3,
+                "label": "3 All\u00e9e de Beaulieu (Rennes)",
+                "name": "All\u00e9e de Beaulieu",
+                "coord": {
+                  "lat": "48.117098",
+                  "lon": "-1.633905"
+                },
+                "id": "-1.633905;48.117098"
+              },
+              "id": "stop_point:STE:OCECarTER-87717629",
+              "name": "Rennes Beaulieu Chimie"
+            },
+            "quality": 0,
+            "name": "Rennes Beaulieu Chimie (Rennes)",
+            "id": "stop_point:STE:OCECarTER-87717629"
+          },
+          "links": [],
+          "arrival_date_time": "20230213T153739",
+          "co2_emission": {
+            "unit": "gEC",
+            "value": 0.0
+          },
+          "to": {
+            "embedded_type": "address",
+            "id": "-1.638895;48.122727",
+            "quality": 0,
+            "name": "4 Avenue Pierre Donzelot (Rennes)",
+            "address": {
+              "name": "4 Avenue Pierre Donzelot",
+              "house_number": 4,
+              "coord": {
+                "lat": "48.122727",
+                "lon": "-1.638895"
+              },
+              "label": "4 Avenue Pierre Donzelot (Rennes)",
+              "administrative_regions": [
+                {
+                  "insee": "",
+                  "name": "Jeanne d'Arc - Longs Champs - Beaulieu",
+                  "level": 10,
+                  "coord": {
+                    "lat": "48.1183076",
+                    "lon": "-1.6545309"
+                  },
+                  "label": "Jeanne d'Arc - Longs Champs - Beaulieu, Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5511311"
+                },
+                {
+                  "insee": "",
+                  "name": "Quartiers Nord-Est",
+                  "level": 9,
+                  "coord": {
+                    "lat": "48.1304612347",
+                    "lon": "-1.64926622303"
+                  },
+                  "label": "Quartiers Nord-Est, Rennes, Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:5833874"
+                },
+                {
+                  "insee": "35",
+                  "name": "Ille-et-Vilaine",
+                  "level": 6,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:osm:relation:7465"
+                },
+                {
+                  "insee": "53",
+                  "name": "Bretagne",
+                  "level": 4,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Bretagne, France",
+                  "id": "admin:osm:relation:102740"
+                },
+                {
+                  "insee": "",
+                  "name": "France",
+                  "level": 2,
+                  "coord": {
+                    "lat": "48.8534951",
+                    "lon": "2.3483915"
+                  },
+                  "label": "France",
+                  "id": "admin:osm:relation:2202162"
+                },
+                {
+                  "insee": "35238",
+                  "name": "Rennes",
+                  "level": 8,
+                  "coord": {
+                    "lat": "48.1113387",
+                    "lon": "-1.6800198"
+                  },
+                  "label": "Rennes (35000-35700), Ille-et-Vilaine, Bretagne, France",
+                  "id": "admin:fr:35238",
+                  "zip_code": "35000-35700"
+                }
+              ],
+              "id": "-1.638895;48.122727"
+            }
+          },
+          "departure_date_time": "20230213T152500",
+          "geojson": {
+            "type": "LineString",
+            "properties": [
+              {
+                "length": 846
+              }
+            ],
+            "coordinates": [
+              [
+                -1.633905,
+                48.117098
+              ],
+              [
+                -1.633973,
+                48.11708
+              ],
+              [
+                -1.634139,
+                48.117359
+              ],
+              [
+                -1.634279,
+                48.117614
+              ],
+              [
+                -1.634325,
+                48.117702
+              ],
+              [
+                -1.63436,
+                48.11777
+              ],
+              [
+                -1.634414,
+                48.117874
+              ],
+              [
+                -1.634467,
+                48.117958
+              ],
+              [
+                -1.634553,
+                48.118068
+              ],
+              [
+                -1.635139,
+                48.119062
+              ],
+              [
+                -1.635196,
+                48.11916
+              ],
+              [
+                -1.63523,
+                48.119214
+              ],
+              [
+                -1.6354,
+                48.119506
+              ],
+              [
+                -1.635464,
+                48.119616
+              ],
+              [
+                -1.635643,
+                48.119922
+              ],
+              [
+                -1.635705,
+                48.120027
+              ],
+              [
+                -1.635773,
+                48.120138
+              ],
+              [
+                -1.635805,
+                48.12018
+              ],
+              [
+                -1.635843,
+                48.120213
+              ],
+              [
+                -1.635913,
+                48.120245
+              ],
+              [
+                -1.635984,
+                48.120264
+              ],
+              [
+                -1.63606,
+                48.120264
+              ],
+              [
+                -1.636141,
+                48.120251
+              ],
+              [
+                -1.636859,
+                48.120061
+              ],
+              [
+                -1.636928,
+                48.120047
+              ],
+              [
+                -1.636999,
+                48.120038
+              ],
+              [
+                -1.637071,
+                48.120039
+              ],
+              [
+                -1.637141,
+                48.120047
+              ],
+              [
+                -1.637198,
+                48.120064
+              ],
+              [
+                -1.637249,
+                48.120084
+              ],
+              [
+                -1.637299,
+                48.120115
+              ],
+              [
+                -1.637339,
+                48.120149
+              ],
+              [
+                -1.63747,
+                48.120367
+              ],
+              [
+                -1.637545,
+                48.120496
+              ],
+              [
+                -1.638068,
+                48.121387
+              ],
+              [
+                -1.638107,
+                48.121453
+              ],
+              [
+                -1.638143,
+                48.121514
+              ],
+              [
+                -1.638199,
+                48.121608
+              ],
+              [
+                -1.63829,
+                48.121778
+              ],
+              [
+                -1.638318,
+                48.121829
+              ],
+              [
+                -1.63834,
+                48.121888
+              ],
+              [
+                -1.63841,
+                48.122175
+              ],
+              [
+                -1.638413,
+                48.122189
+              ],
+              [
+                -1.638447,
+                48.122233
+              ],
+              [
+                -1.638456,
+                48.122266
+              ],
+              [
+                -1.638493,
+                48.12226
+              ],
+              [
+                -1.638534,
+                48.122288
+              ],
+              [
+                -1.63863,
+                48.122321
+              ],
+              [
+                -1.638776,
+                48.122329
+              ],
+              [
+                -1.638901,
+                48.122311
+              ],
+              [
+                -1.639014,
+                48.122325
+              ],
+              [
+                -1.639087,
+                48.122307
+              ],
+              [
+                -1.639104,
+                48.122335
+              ],
+              [
+                -1.639109,
+                48.122344
+              ],
+              [
+                -1.639115,
+                48.122353
+              ],
+              [
+                -1.639135,
+                48.122391
+              ],
+              [
+                -1.639156,
+                48.122432
+              ],
+              [
+                -1.639145,
+                48.122438
+              ],
+              [
+                -1.639079,
+                48.122478
+              ],
+              [
+                -1.639092,
+                48.122548
+              ],
+              [
+                -1.639022,
+                48.122566
+              ],
+              [
+                -1.639055,
+                48.122637
+              ],
+              [
+                -1.639081,
+                48.122683
+              ],
+              [
+                -1.638895,
+                48.122727
+              ]
+            ]
+          },
+          "duration": 759,
+          "path": [
+            {
+              "direction": 0,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.11707999999999",
+                "lon": "-1.633973"
+              },
+              "instruction": "Marchez vers le nord sur All\u00e9e de Beaulieu. Continuez sur 387 m.",
+              "length": 387,
+              "duration": 319
+            },
+            {
+              "direction": -48,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.120264",
+                "lon": "-1.635984"
+              },
+              "instruction": "Tournez \u00e0 gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 351 m.",
+              "length": 351,
+              "duration": 334
+            },
+            {
+              "direction": -12,
+              "name": "All\u00e9e de Beaulieu",
+              "instruction_start_coordinate": {
+                "lat": "48.122189",
+                "lon": "-1.638413"
+              },
+              "instruction": "Gardez la gauche pour rester sur All\u00e9e de Beaulieu. Continuez sur 9 m.",
+              "length": 9,
+              "duration": 8
+            },
+            {
+              "direction": -84,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122266",
+                "lon": "-1.638456"
+              },
+              "instruction": "Tournez \u00e0 gauche dans l'all\u00e9e. Continuez sur 3 m.",
+              "length": 3,
+              "duration": 3
+            },
+            {
+              "direction": 52,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12226",
+                "lon": "-1.638493"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 47 m.",
+              "length": 47,
+              "duration": 45
+            },
+            {
+              "direction": 81,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.122307",
+                "lon": "-1.639087"
+              },
+              "instruction": "Tournez \u00e0 droite dans l'all\u00e9e. Continuez sur 30 m.",
+              "length": 30,
+              "duration": 33
+            },
+            {
+              "direction": 76,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12254799999999",
+                "lon": "-1.639092"
+              },
+              "instruction": "Tournez \u00e0 droite dans the crosswalk. Continuez sur 6 m.",
+              "length": 6,
+              "duration": 5
+            },
+            {
+              "direction": -86,
+              "name": "Avenue Pierre Donzelot",
+              "instruction_start_coordinate": {
+                "lat": "48.122566",
+                "lon": "-1.639022"
+              },
+              "instruction": "Tournez \u00e0 gauche dans Avenue Pierre Donzelot. Continuez sur 13 m.",
+              "length": 13,
+              "duration": 12
+            },
+            {
+              "direction": 0,
+              "name": "",
+              "instruction_start_coordinate": {
+                "lat": "48.12268299999999",
+                "lon": "-1.639081"
+              },
+              "instruction": "Votre destination est sur la droite.",
+              "length": 0,
+              "duration": 0
+            }
+          ],
+          "type": "street_network",
+          "id": "E9fpKZx9RWPXgQyXzbfVZS_2",
+          "elevations": [
+            {
+              "distance_from_start": 0,
+              "geojson_offset": 0,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 34,
+              "geojson_offset": 1,
+              "elevation": 51
+            },
+            {
+              "distance_from_start": 74,
+              "geojson_offset": 3,
+              "elevation": 50
+            },
+            {
+              "distance_from_start": 94,
+              "geojson_offset": 5,
+              "elevation": 49
+            },
+            {
+              "distance_from_start": 118,
+              "geojson_offset": 7,
+              "elevation": 48
+            },
+            {
+              "distance_from_start": 237,
+              "geojson_offset": 8,
+              "elevation": 42
+            },
+            {
+              "distance_from_start": 249,
+              "geojson_offset": 9,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 255,
+              "geojson_offset": 10,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 290,
+              "geojson_offset": 11,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 340,
+              "geojson_offset": 13,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 353,
+              "geojson_offset": 14,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 382,
+              "geojson_offset": 18,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 393,
+              "geojson_offset": 20,
+              "elevation": 38
+            },
+            {
+              "distance_from_start": 457,
+              "geojson_offset": 22,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 462,
+              "geojson_offset": 23,
+              "elevation": 36
+            },
+            {
+              "distance_from_start": 539,
+              "geojson_offset": 32,
+              "elevation": 37
+            },
+            {
+              "distance_from_start": 645,
+              "geojson_offset": 33,
+              "elevation": 39
+            },
+            {
+              "distance_from_start": 653,
+              "geojson_offset": 34,
+              "elevation": 40
+            },
+            {
+              "distance_from_start": 661,
+              "geojson_offset": 35,
+              "elevation": 41
+            },
+            {
+              "distance_from_start": 692,
+              "geojson_offset": 37,
+              "elevation": 43
+            },
+            {
+              "distance_from_start": 705,
+              "geojson_offset": 39,
+              "elevation": 44
+            },
+            {
+              "distance_from_start": 737,
+              "geojson_offset": 40,
+              "elevation": 45
+            },
+            {
+              "distance_from_start": 792,
+              "geojson_offset": 49,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 813,
+              "geojson_offset": 55,
+              "elevation": 47
+            },
+            {
+              "distance_from_start": 834,
+              "geojson_offset": 59,
+              "elevation": 46
+            },
+            {
+              "distance_from_start": 842,
+              "geojson_offset": 60,
+              "elevation": 47
+            }
+          ],
+          "mode": "walking"
+        }
+      ]
+    }
+  ],
+  "disruptions": [],
+  "notes": [],
+  "feed_publishers": [
+    {
+      "url": "",
+      "id": "fr-nw",
+      "license": "ODbL",
+      "name": "Quart Nord-Ouest Open Data"
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "id": "osm",
+      "license": "ODbL",
+      "name": "openstreetmap"
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/odbl/1.0/index.html",
+      "id": "OBZ:fr_bretagne_open",
+      "license": "ODbL",
+      "name": "Bretagne - MobiBreizh (open)"
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/odbl/1.0/index.html",
+      "id": "ORE:fr_Rennes_open",
+      "license": "ODbL",
+      "name": "Rennes - STAR (open)"
+    },
+    {
+      "url": "https://data.sncf.com/pages/cgu/A1#A1",
+      "id": "STE:fr_SNCF-TER_open",
+      "license": "ODbL",
+      "name": "SNCF TER Open Data"
+    },
+    {
+      "url": "https://data.sncf.com/pages/cgu/A1#A1",
+      "id": "STG:fr_SNCF-TGV_open",
+      "license": "ODbL",
+      "name": "SNCF TGV Open Data"
+    }
+  ],
+  "context": {
+    "timezone": "Europe/Paris",
+    "current_datetime": "20230213T113621",
+    "car_direct_path": {
+      "co2_emission": {
+        "value": 2858.4287375204,
+        "unit": "gEC"
+      }
+    }
+  },
+  "exceptions": []
+}
