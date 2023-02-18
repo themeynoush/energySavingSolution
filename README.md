@@ -9,5 +9,9 @@ We then can have
 We retrieve commuter's home address from a database.
 We calculate the geo distance between home to work address, using Navisia 
   * We create an account in Navisia
-  * We use the generated token 
+  * We use the generated token in order to get connected to the server
+  * We calculate each person's data, including the distance to their office, the co2_emission
+  * The distance between the commuter's home address to the office
+  * We find the different paths for them based on their distance
+  
 
